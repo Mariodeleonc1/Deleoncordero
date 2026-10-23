@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>De León Cordero Abogados</title>
+<title>De León Cordero Abogados | Abogados en Zapopan y Guadalajara</title>
 <meta property="og:type" content="website">
 <meta property="og:title" content="De León Cordero Abogados">
 <meta property="og:description" content="Estrategia legal de vanguardia">
@@ -11,7 +11,10 @@
 <meta property="og:url" content="https://deleoncordero.com.mx/">
 <link rel="canonical" href="https://deleoncordero.com.mx/">
 <meta name="theme-color" content="#22272e">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LegalService","name":"De León Cordero Abogados","url":"https://deleoncordero.com.mx/","image":"https://deleoncordero.com.mx/img/equipo/socios.jpg","logo":"https://deleoncordero.com.mx/img/logo.svg","telephone":"+52 33 3070 0588","email":"asistente@dlcm.mx","address":{"@type":"PostalAddress","streetAddress":"Paseo de los Robles 4099, Colonia San Wenceslao","addressLocality":"Zapopan","addressRegion":"Jalisco","postalCode":"45110","addressCountry":"MX"},"areaServed":["Zapopan","Guadalajara","Jalisco"],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"14:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"16:00","closes":"19:00"}],"knowsAbout":["Amparo","Derecho constitucional","Derecho civil","Derecho mercantil","Derecho familiar","Derecho agrario","Mediación"]}
+</script>
 <meta name="description" content="De León Cordero Abogados. Amparo, civil, mercantil, familiar, agrario y mecanismos alternativos de solución de controversias en Zapopan, Jalisco.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -310,6 +313,8 @@ footer .brand img{height:15px}
 footer nav{display:flex;gap:26px;flex-wrap:wrap}
 footer nav a{text-decoration:none}
 footer nav a:hover{color:#fff}
+footer .bottom .mat a{color:inherit;text-decoration:none}
+footer .bottom .mat a:hover{color:#fff}
 footer .bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:26px;font-size:13px}
 
 /* Lector de artículos */
@@ -617,10 +622,11 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wra
   <div class="wrap">
     <div class="top">
       <a class="brand" href="#inicio"><img src="img/logo.svg" alt="De León Cordero"><span>ABOGADOS</span></a>
-      <nav aria-label="Pie"><a href="#firma">Firma</a><a href="#practicas">Prácticas</a><a href="#noticias">Noticias</a><a href="#contacto">Contacto</a></nav>
+      <nav aria-label="Pie"><a href="#firma">Firma</a><a href="#practicas">Prácticas</a><a href="/noticias/">Noticias</a><a href="#contacto">Contacto</a></nav>
     </div>
     <div class="bottom">
       <span>Paseo de los Robles 4099, Zapopan, Jalisco, México · Teléfono 33 3070 0588 · asistente@dlcm.mx</span>
+      <span class="mat"><a href="/materias/amparo/">Amparo</a> · <a href="/materias/derecho-civil/">Derecho civil</a> · <a href="/materias/derecho-mercantil/">Derecho mercantil</a> · <a href="/materias/derecho-familiar/">Derecho familiar</a> · <a href="/materias/derecho-agrario/">Derecho agrario</a> · <a href="/materias/mediacion/">Mediación</a></span>
       <span>© 2026 De León Cordero Abogados</span>
     </div>
   </div>
@@ -637,6 +643,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wra
   </article>
 </div>
 
+<script src="areas.js"></script>
 <script src="noticias.js"></script>
 <script>
 (function(){
@@ -644,38 +651,9 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wra
   var arrow = '<svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 9h14M10 3l6 6-6 6"/></svg>';
 
   /* Materias */
-  var AREAS = [
-    {id:'amparo', t:'Amparo y derecho constitucional', short:'Amparo',
-     s:'Defensa constitucional frente a leyes, actos de autoridad y resoluciones judiciales.',
-     d:'La defensa constitucional es el eje de nuestra práctica. Hemos obtenido sentencias protectoras y suspensiones decisivas frente a actos de autoridades administrativas, legislativas y jurisdiccionales, tanto en amparo indirecto como en amparo directo. Cada demanda se construye a partir de un estudio riguroso de la jurisprudencia obligatoria, priorizando los criterios definidos por contradicción de tesis.',
-     l:['Amparo indirecto contra leyes, reglamentos y actos de autoridad.','Amparo directo contra sentencias definitivas.','Suspensión provisional y definitiva del acto reclamado.','Amparo en materia civil, mercantil, familiar, agraria y administrativa.','Recursos de revisión, queja e inconformidad.','Cumplimiento y ejecución de sentencias de amparo.'],
-     b:'Artículos 103 y 107 de la Constitución Política de los Estados Unidos Mexicanos y Ley de Amparo, Reglamentaria de los Artículos 103 y 107 de la Constitución Política de los Estados Unidos Mexicanos.'},
-    {id:'civil', t:'Derecho civil', short:'Civil',
-     s:'Contratos, propiedad y obligaciones.',
-     d:'Representamos a personas y empresas en controversias sobre contratos, propiedad y obligaciones, con resultados favorables en juicios de alta complejidad. Combinamos la estrategia procesal con la negociación para proteger el patrimonio de nuestros clientes en el menor tiempo posible.',
-     l:['Cumplimiento y rescisión de contratos de compraventa y arrendamiento.','Juicios hipotecarios.','Acciones reivindicatorias y juicios de usucapión.','Responsabilidad civil y reparación de daños.','Controversias derivadas de obras de construcción.','Juicios conforme al Código Nacional de Procedimientos Civiles y Familiares.'],
-     b:'Código Civil del Estado de Jalisco y Código Nacional de Procedimientos Civiles y Familiares.'},
-    {id:'mercantil', t:'Derecho mercantil', short:'Mercantil',
-     s:'Recuperación de cartera y conflictos comerciales y societarios.',
-     d:'Contamos con una sólida trayectoria en litigios mercantiles, con recuperaciones exitosas de cartera y resoluciones favorables en conflictos comerciales y societarios. Elegimos la vía procesal adecuada para cada título de crédito y cada monto, a efecto de asegurar bienes suficientes desde el inicio del juicio.',
-     l:['Juicios ejecutivos y orales mercantiles.','Recuperación de pagarés, cheques y facturas.','Embargo y aseguramiento de bienes.','Cumplimiento y rescisión de contratos mercantiles.','Conflictos entre socios y accionistas.','Defensa en juicios mercantiles promovidos en contra de nuestros clientes.'],
-     b:'Código de Comercio y Ley General de Títulos y Operaciones de Crédito.'},
-    {id:'familiar', t:'Derecho familiar', short:'Familiar',
-     s:'Custodia, alimentos, divorcio y sucesiones.',
-     d:'El derecho familiar es una de nuestras especialidades. Acompañamos a nuestros clientes con cercanía y discreción en los asuntos más sensibles, con resultados favorables en controversias de guarda y custodia, alimentos y sucesiones, privilegiando siempre el interés superior de niñas, niños y adolescentes.',
-     l:['Divorcio y liquidación de sociedad conyugal.','Pensión alimenticia, su aseguramiento y su cobro.','Patria potestad, guarda y custodia.','Régimen de convivencias.','Reconocimiento de paternidad.','Juicios sucesorios testamentarios e intestamentarios.','Convenios familiares.'],
-     b:'Código Civil del Estado de Jalisco y Código Nacional de Procedimientos Civiles y Familiares.'},
-    {id:'agrario', t:'Derecho agrario', short:'Agrario',
-     s:'Tenencia de la tierra ejidal y comunal.',
-     d:'Defendemos a ejidatarios, comuneros, posesionarios y núcleos agrarios en la tenencia de la tierra, con experiencia probada ante los Tribunales Agrarios y el Registro Agrario Nacional. Damos certeza jurídica a la propiedad social y a su transmisión entre generaciones.',
-     l:['Derechos ejidales y comunales.','Sucesión de derechos agrarios.','Controversias de posesión y linderos.','Nulidad de actos y resoluciones agrarias.','Regularización de parcelas y solares.','Asesoría en asambleas ejidales y comunales.'],
-     b:'Artículo 27 de la Constitución Política de los Estados Unidos Mexicanos y Ley Agraria.'},
-    {id:'masc', t:'Mecanismos alternativos de solución de controversias', short:'Mecanismos alternativos',
-     s:'Mediación y conciliación sin necesidad de juicio.',
-     d:'Resolvemos conflictos sin necesidad de juicio mediante mediación y conciliación, con convenios redactados para cumplirse y, en su caso, ejecutarse. Este enfoque reduce tiempos, costos y desgaste, y resulta especialmente eficaz en asuntos familiares, civiles y mercantiles.',
-     l:['Mediación y conciliación entre particulares.','Mediación familiar, civil y mercantil.','Negociación asistida.','Redacción y revisión de convenios.','Acompañamiento ante centros públicos y privados.'],
-     b:'Ley General de Mecanismos Alternativos de Solución de Controversias.'}
-  ];
+  var AREAS = window.AREAS;
+  function slugOf(t){ return t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').split('-').slice(0,10).join('-').replace(/(-(en|de|la|el|y|los|las|del|a|para|por|con))+$/,''); }
+  var MSLUG = {amparo:'amparo', civil:'derecho-civil', mercantil:'derecho-mercantil', familiar:'derecho-familiar', agrario:'derecho-agrario', masc:'mediacion'};
 
   /* Artículos: para publicar uno, agregue el texto en "cuerpo" y la fecha. */
   var ARTICLES = window.ARTICLES || [];
@@ -691,7 +669,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wra
       '<h3>'+a.t.split(' ').map(function(w){ return '<span class="w">'+w+'</span>'; }).join(' ')+'</h3>'+
       '<p class="d px-fx">'+a.d+'</p>'+
       '<ul>'+a.l.map(function(x){ return '<li class="px-fx">'+x+'</li>'; }).join('')+'</ul>'+
-      '<a class="pr-link px-fx" href="#noticias" data-filter="'+a.id+'">Ver artículos de la materia '+arrow+'</a>';
+      '<a class="pr-link px-fx" href="/materias/'+MSLUG[a.id]+'/">Conozca más sobre la materia '+arrow+'</a> <a class="pr-link px-fx" href="#noticias" data-filter="'+a.id+'" style="margin-left:22px">Ver artículos '+arrow+'</a>';
     acc.appendChild(el);
     var li = document.createElement('li');
     li.innerHTML = '<a href="#practicas" data-go="'+i+'"><span class="n" aria-hidden="true"></span><span>'+a.short+'</span><i></i></a>';
@@ -733,7 +711,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wra
     c.className = 'card reveal'; c.dataset.m = x.m;
     c.innerHTML = '<div class="meta"><span class="cat"><i class="dia"></i>'+shortOf[x.m]+'</span><span class="status">'+(pub?x.fecha:'Próximamente')+'</span></div>'+
       '<h3>'+x.titulo+'</h3><p>'+x.resumen+'</p>'+
-      '<div class="foot">'+(pub?'<button class="pill" type="button" data-i="'+i+'">Leer artículo '+arrow+'</button>':'<span style="color:var(--soft)">En preparación por el despacho</span>')+'</div>';
+      '<div class="foot">'+(pub?'<a class="pill" href="/noticias/'+slugOf(x.titulo)+'/">Leer artículo '+arrow+'</a>':'<span style="color:var(--soft)">En preparación por el despacho</span>')+'</div>';
     grid.appendChild(c);
   });
   function filter(id){
@@ -798,7 +776,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wra
   ARTICLES.forEach(function(x,i){
     var c = document.createElement('article'); c.className = 'nwc'; c.tabIndex = 0;
     c.innerHTML = '<div class="top"><span>'+(x.fecha||'Próximamente')+'</span><span class="tag">'+shortOf[x.m]+'</span></div><h3>'+x.titulo+'</h3><div class="art">'+art(i+3, TONES[x.m])+'</div>';
-    function go(){ if (x.cuerpo) grid.querySelector('[data-i="'+i+'"]').click(); else { filter(x.m); location.hash = 'noticias'; } }
+    function go(){ if (x.cuerpo) location.href = '/noticias/' + slugOf(x.titulo) + '/'; else { filter(x.m); location.hash = 'noticias'; } }
     c.addEventListener('click', go); c.addEventListener('keydown', function(e){ if (e.key==='Enter') go(); });
     nwTrack.appendChild(c);
   });

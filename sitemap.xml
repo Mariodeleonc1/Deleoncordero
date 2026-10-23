@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://deleoncordero.com.mx/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://deleoncordero.com.mx/</loc><lastmod>2026-10-22</lastmod><priority>1.0</priority></url>
+  <url><loc>https://deleoncordero.com.mx/materias/amparo/</loc><lastmod>2026-10-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/materias/derecho-civil/</loc><lastmod>2026-10-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/materias/derecho-mercantil/</loc><lastmod>2026-10-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/materias/derecho-familiar/</loc><lastmod>2026-10-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/materias/derecho-agrario/</loc><lastmod>2026-10-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/materias/mediacion/</loc><lastmod>2026-10-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/la-suspension-del-acto-reclamado-en-el-amparo-indirecto/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/plazos-para-promover-el-juicio-de-amparo/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/el-codigo-nacional-de-procedimientos-civiles-y-familiares-en-jalisco/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/cobro-de-pagares-en-la-via-ejecutiva-mercantil/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/pension-alimenticia-como-se-fija-y-como-se-garantiza/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/sucesion-de-derechos-agrarios/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/mediacion-resolver-el-conflicto-sin-llegar-a-juicio/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/</loc><lastmod>2026-10-22</lastmod><priority>0.8</priority></url>
 </urlset>
