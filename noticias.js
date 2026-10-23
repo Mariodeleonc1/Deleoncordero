@@ -6,7 +6,7 @@
 window.ARTICLES = [
   {
     "m": "amparo",
-    "titulo": "¿Pueden ejecutar un acto de autoridad mientras usted tramita su amparo?",
+    "titulo": "¿Puede la autoridad ejecutar un acto mientras usted lo combate en amparo? Lo que cambió con la reforma de 2025",
     "resumen": "La suspensión puede detener a la autoridad mientras el juez decide, pero desde octubre de 2025 obtenerla exige una petición mucho más cuidadosa.",
     "fecha": "22 de octubre de 2026",
     "cuerpo": [
@@ -53,7 +53,7 @@ window.ARTICLES = [
   },
   {
     "m": "amparo",
-    "titulo": "Le notificaron un acto de autoridad: así se cuentan los días para presentar su amparo",
+    "titulo": "Quince días para defenderse: cómo se cuenta el plazo del amparo y por qué un solo día puede costarle el caso",
     "resumen": "Un solo día de retraso basta para perder la oportunidad de un amparo, y casi siempre ocurre por contar mal el plazo, no por desconocerlo.",
     "fecha": "22 de octubre de 2026",
     "cuerpo": [
@@ -97,7 +97,7 @@ window.ARTICLES = [
   },
   {
     "m": "civil",
-    "titulo": "Cómo cambiarán los juicios civiles y familiares en Jalisco",
+    "titulo": "Juicios orales en materia civil y familiar: lo que cambiará en Jalisco con el Código Nacional",
     "resumen": "Un mismo código regirá los juicios civiles y familiares de todo el país, con audiencias orales y trámite en línea, y Jalisco tiene como fecha límite el 1 de abril de 2027.",
     "fecha": "22 de octubre de 2026",
     "cuerpo": [
@@ -149,7 +149,7 @@ window.ARTICLES = [
   },
   {
     "m": "mercantil",
-    "titulo": "Le firmaron un pagaré y no le pagan: qué puede hacer para cobrarlo",
+    "titulo": "¿Qué puede hacer si le firmaron un pagaré y no le pagan? Embargo, plazos y el límite a los intereses usurarios",
     "resumen": "Un pagaré bien hecho permite que el juicio empiece con un requerimiento de pago y, si el deudor no paga, con el embargo de sus bienes, siempre que usted actúe a tiempo.",
     "fecha": "22 de octubre de 2026",
     "cuerpo": [
@@ -195,7 +195,7 @@ window.ARTICLES = [
   },
   {
     "m": "familiar",
-    "titulo": "Pensión alimenticia en Jalisco: cuánto, hasta cuándo y qué hacer si no le pagan",
+    "titulo": "¿Hasta cuándo se debe pagar la pensión alimenticia y qué pasa si el deudor deja de cumplir?",
     "resumen": "Lo que la ley de Jalisco dice sobre quién debe pagar, cómo se calcula el monto y qué puede hacer cuando el dinero no llega.",
     "fecha": "22 de octubre de 2026",
     "cuerpo": [
@@ -252,7 +252,7 @@ window.ARTICLES = [
   },
   {
     "m": "agrario",
-    "titulo": "¿Quién se queda con la parcela cuando muere un ejidatario?",
+    "titulo": "¿Qué pasa con la parcela cuando un ejidatario fallece sin haber designado sucesores?",
     "resumen": "Una lista de sucesión bien hecha evita a su familia un juicio y, en el peor de los casos, que la tierra salga de sus manos.",
     "fecha": "22 de octubre de 2026",
     "cuerpo": [
@@ -303,7 +303,7 @@ window.ARTICLES = [
   },
   {
     "m": "masc",
-    "titulo": "¿Se puede arreglar un conflicto sin ir a juicio? Así funciona la mediación",
+    "titulo": "¿Tiene la misma fuerza un convenio de mediación que una sentencia? Lo que debe saber antes de acudir a juicio",
     "resumen": "La mediación le permite resolver un desacuerdo con ayuda de una persona imparcial y obtener un convenio que, una vez registrado, tiene la fuerza de una sentencia.",
     "fecha": "22 de octubre de 2026",
     "cuerpo": [
