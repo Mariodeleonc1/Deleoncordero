@@ -327,7 +327,7 @@ window.ARTICLES = [
       "## Antes de sentarse a mediar",
       "Reúna los documentos que respalden su postura, como contratos, recibos o mensajes, y piense con anticipación qué solución le resultaría aceptable.",
       "Verifique que la persona facilitadora cuente con certificación vigente y pida que le explique el alcance del convenio antes de firmarlo. Una vez firmado, asegúrese de que se envíe al Instituto dentro del plazo para su validación y registro.",
-      "La mediación es una vía ágil y confidencial que no sacrifica la seguridad de lo pactado. De León Cordero Abogados cuenta con un Facilitador en Métodos Alternos de Solución de Controversias que puede orientarle sobre si su asunto admite mediación y cómo lograr que su convenio tenga plena eficacia. Le invitamos a consultarnos."
+      "La mediación es una vía ágil y confidencial que no sacrifica la seguridad de lo pactado. En De León Cordero Abogados le orientamos sobre si su asunto admite mediación y cómo lograr que su convenio tenga plena eficacia. Le invitamos a consultarnos."
     ],
     "fuentes": [
       {
