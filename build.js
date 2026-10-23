@@ -96,6 +96,8 @@ function write(rel, html){ const f = path.join(ROOT, rel); fs.mkdirSync(path.dir
 for (const dir of ['materias','noticias']) fs.rmSync(path.join(ROOT, dir), {recursive:true, force:true});
 
 const urls = [{loc: SITE + '/', lastmod: ARTICLES.length ? ARTICLES.map(a => a.iso).sort().pop() : new Date().toISOString().slice(0,10), pri:'1.0'}];
+// Versión en inglés de la página principal (en/index.html)
+urls.push({loc: SITE + '/en/', lastmod: urls[0].lastmod, pri:'0.9'});
 
 // Materias
 AREAS.forEach(a => {
