@@ -130,7 +130,7 @@ ${a.fuentes && a.fuentes.length ? `<section class="src"><h2>Fuentes</h2><ul>${a.
   write(`noticias/${a.slug}/index.html`, page({
     title: `${a.titulo} | De León Cordero Abogados`,
     description: a.resumen, canonical, current:'noticias',
-    jsonld: {"@context":"https://schema.org","@type":"Article","headline":a.titulo,"description":a.resumen,"datePublished":a.iso,"dateModified":a.iso,"inLanguage":"es-MX","mainEntityOfPage":canonical,"author":{"@type":"Organization","name":"De León Cordero Abogados","url":SITE + '/'},"publisher":{"@type":"Organization","name":"De León Cordero Abogados","logo":{"@type":"ImageObject","url":SITE + '/img/logo.svg'}},"image":SITE + '/img/equipo/socios.jpg'},
+    jsonld: {"@context":"https://schema.org","@type":"Article","headline":a.titulo,"description":a.resumen,"datePublished":a.iso,"dateModified":a.iso,"inLanguage":"es-MX","mainEntityOfPage":canonical,"author":{"@type":"Organization","name":"De León Cordero Abogados","url":SITE + '/'},"publisher":{"@type":"Organization","name":"De León Cordero Abogados","logo":{"@type":"ImageObject","url":SITE + '/img/logotipo.png'}},"image":SITE + '/img/equipo/socios.jpg'},
     hero: `<p class="eyebrow"><i class="dia"></i>${esc(area.short)}</p><h1>${esc(a.titulo)}</h1><p class="lead">${esc(a.resumen)}</p><p class="meta">${esc(a.fecha)} · De León Cordero Abogados</p>`,
     content
   }));
