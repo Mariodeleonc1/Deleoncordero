@@ -71,7 +71,7 @@ function page({title, description, canonical, ogImage, jsonld, hero, content, cu
 <footer>
   <div class="wrap">
     <a class="brand" href="/"><img src="/img/logo.svg" alt="De León Cordero"><span>ABOGADOS</span></a>
-    <nav aria-label="Pie"><a href="/#firma">Firma</a><a href="/#practicas">Prácticas</a><a href="/noticias/">Noticias</a><a href="/#contacto">Contacto</a></nav>
+    <nav aria-label="Pie"><a href="/#firma">Firma</a><a href="/#practicas">Prácticas</a><a href="/noticias/">Noticias</a><a href="/#contacto">Contacto</a><a href="https://www.linkedin.com/in/mariodeleoncordero" target="_blank" rel="noopener me" aria-label="Mario Alberto de León Cordero en LinkedIn">LinkedIn</a></nav>
     <span class="mat">${AREAS.map(a => `<a href="/materias/${MSLUG[a.id]}/">${esc(a.t)}</a>`).join(' · ')}</span>
     <span>Paseo de los Robles 4099, Colonia San Wenceslao, Zapopan, Jalisco · Teléfono 33 3070 0588 · asistente@dlcm.mx</span>
     <span>© ${new Date().getFullYear()} De León Cordero Abogados</span>
