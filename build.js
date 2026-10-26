@@ -71,7 +71,7 @@ function page({title, description, canonical, ogImage, jsonld, hero, content, cu
 <footer>
   <div class="wrap">
     <a class="brand" href="/"><img src="/img/logo.svg" alt="De León Cordero"><span>ABOGADOS</span></a>
-    <nav aria-label="Pie"><a href="/#firma">Firma</a><a href="/#practicas">Prácticas</a><a href="/noticias/">Noticias</a><a href="/#contacto">Contacto</a><a href="https://www.linkedin.com/in/mariodeleoncordero" target="_blank" rel="noopener me" aria-label="Mario Alberto de León Cordero en LinkedIn">LinkedIn</a></nav>
+    <nav aria-label="Pie"><a href="/#firma">Firma</a><a href="/#practicas">Prácticas</a><a href="/noticias/">Noticias</a><a href="/#contacto">Contacto</a><a href="https://www.linkedin.com/in/mariodeleoncordero" target="_blank" rel="noopener me" aria-label="Mario Alberto de León Cordero en LinkedIn">LinkedIn</a><a href="https://www.facebook.com/profile.php?id=61595817688398" target="_blank" rel="noopener" aria-label="De León Cordero Abogados en Facebook">Facebook</a></nav>
     <span class="mat">${AREAS.map(a => `<a href="/materias/${MSLUG[a.id]}/">${esc(a.t)}</a>`).join(' · ')}</span>
     <span>Paseo de los Robles 4099, Colonia San Wenceslao, Zapopan, Jalisco · Teléfono 33 3070 0588 · asistente@dlcm.mx</span>
     <span>© ${new Date().getFullYear()} De León Cordero Abogados</span>
@@ -82,7 +82,7 @@ function page({title, description, canonical, ogImage, jsonld, hero, content, cu
 `;
 }
 
-const ORG = {"@type":"LegalService","name":"De León Cordero Abogados","url":SITE + '/',"telephone":"+52 33 3070 0588","address":{"@type":"PostalAddress","streetAddress":"Paseo de los Robles 4099, Colonia San Wenceslao","addressLocality":"Zapopan","addressRegion":"Jalisco","postalCode":"45110","addressCountry":"MX"}};
+const ORG = {"@type":"LegalService","name":"De León Cordero Abogados","url":SITE + '/',"telephone":"+52 33 3070 0588","sameAs":["https://www.facebook.com/profile.php?id=61595817688398"],"address":{"@type":"PostalAddress","streetAddress":"Paseo de los Robles 4099, Colonia San Wenceslao","addressLocality":"Zapopan","addressRegion":"Jalisco","postalCode":"45110","addressCountry":"MX"}};
 
 function bodyHtml(cuerpo){
   return cuerpo.map(p => p.startsWith('## ') ? `<h2>${esc(p.slice(3))}</h2>` : p.startsWith('> ') ? `<p class="jur">${esc(p.slice(2))}</p>` : `<p>${esc(p)}</p>`).join('\n');
