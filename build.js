@@ -115,7 +115,7 @@ ${arts.length ? `<section class="related"><h2>Artículos sobre ${esc(a.short.toL
   write(`materias/${slug}/index.html`, page({
     title: `${MTITLE[a.id]} | De León Cordero Abogados`,
     description: `${a.s} De León Cordero Abogados, despacho en Zapopan, Jalisco.`,
-    canonical, current:'materias',
+    canonical, current:'materias', ogImage: `${SITE}/img/og/${a.id}.jpg`,
     jsonld: {"@context":"https://schema.org","@graph":[{"@type":"Service","name":a.t,"serviceType":a.t,"areaServed":["Zapopan","Guadalajara","Jalisco"],"provider":ORG,"url":canonical}].concat(faqs.length ? [{"@type":"FAQPage","url":canonical,"mainEntity":faqs.map(f => ({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))}] : [])},
     hero: `<p class="eyebrow"><i class="dia"></i>Prácticas</p><h1>${esc(MTITLE[a.id])}</h1><p class="lead">${esc(a.s)}</p>`,
     content
@@ -135,7 +135,8 @@ ${a.fuentes && a.fuentes.length ? `<section class="src"><h2>Fuentes</h2><ul>${a.
   write(`noticias/${a.slug}/index.html`, page({
     title: `${a.titulo} | De León Cordero Abogados`,
     description: a.resumen, canonical, current:'noticias',
-    jsonld: {"@context":"https://schema.org","@type":"Article","headline":a.titulo,"description":a.resumen,"datePublished":a.iso,"dateModified":a.iso,"inLanguage":"es-MX","mainEntityOfPage":canonical,"author":{"@type":"Organization","name":"De León Cordero Abogados","url":SITE + '/'},"publisher":{"@type":"Organization","name":"De León Cordero Abogados","logo":{"@type":"ImageObject","url":SITE + '/img/logotipo.png'}},"image":SITE + '/img/equipo/socios.jpg'},
+    jsonld: {"@context":"https://schema.org","@type":"Article","headline":a.titulo,"description":a.resumen,"datePublished":a.iso,"dateModified":a.iso,"inLanguage":"es-MX","mainEntityOfPage":canonical,"author":{"@type":"Organization","name":"De León Cordero Abogados","url":SITE + '/'},"publisher":{"@type":"Organization","name":"De León Cordero Abogados","logo":{"@type":"ImageObject","url":SITE + '/img/logotipo.png'}},"image":`${SITE}/img/og/${a.m}.jpg`},
+    ogImage: `${SITE}/img/og/${a.m}.jpg`,
     hero: `<p class="eyebrow"><i class="dia"></i>${esc(area.short)}</p><h1>${esc(a.titulo)}</h1><p class="lead">${esc(a.resumen)}</p><p class="meta">${esc(a.fecha)} · De León Cordero Abogados</p>`,
     content
   }));
@@ -147,6 +148,7 @@ write('noticias/index.html', page({
   title: 'Noticias y artículos jurídicos | De León Cordero Abogados',
   description: 'Análisis de reformas, criterios de la Suprema Corte de Justicia de la Nación y orientación práctica en amparo, derecho civil, mercantil, familiar, agrario y mediación.',
   canonical: `${SITE}/noticias/`, current:'noticias',
+  ogImage: `${SITE}/img/og/noticias.jpg`,
   jsonld: {"@context":"https://schema.org","@type":"CollectionPage","name":"Noticias y artículos","url":`${SITE}/noticias/`,"publisher":ORG},
   hero: `<p class="eyebrow"><i class="dia"></i>Noticias</p><h1>Noticias y artículos</h1><p class="lead">Análisis de reformas, criterios de la Suprema Corte de Justicia de la Nación y orientación práctica en cada una de nuestras materias.</p>`,
   content: `<div class="cards">${ARTICLES.map(card).join('')}</div>`
