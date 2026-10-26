@@ -7,6 +7,7 @@ const ROOT = __dirname;
 const SITE = 'https://deleoncordero.com.mx';
 const load = (f, key) => { const w = {}; new Function('window', fs.readFileSync(path.join(ROOT, f), 'utf8'))(w); return w[key]; };
 const AREAS = load('areas.js', 'AREAS');
+const FAQ = load('faq.js', 'FAQ') || {};
 const ARTICLES = load('noticias.js', 'ARTICLES').filter(a => a.cuerpo && a.cuerpo.length);
 
 const MSLUG = {amparo:'amparo', civil:'derecho-civil', mercantil:'derecho-mercantil', familiar:'derecho-familiar', agrario:'derecho-agrario', masc:'mediacion'};
@@ -103,17 +104,19 @@ urls.push({loc: SITE + '/en/', lastmod: urls[0].lastmod, pri:'0.9'});
 AREAS.forEach(a => {
   const slug = MSLUG[a.id], canonical = `${SITE}/materias/${slug}/`;
   const arts = ARTICLES.filter(x => x.m === a.id);
+  const faqs = FAQ[a.id] || [];
   const content = `<div class="body">
 <p>${esc(a.d)}</p>
 <h2>Asuntos que atendemos</h2>
 </div>
 <ul class="list">${a.l.map(x => `<li>${esc(x)}</li>`).join('')}</ul>
+${faqs.length ? `<section class="faq"><h2>Preguntas frecuentes</h2>${faqs.map(f => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section>` : ''}
 ${arts.length ? `<section class="related"><h2>Artículos sobre ${esc(a.short.toLowerCase())}</h2><div class="cards">${arts.map(card).join('')}</div></section>` : ''}`;
   write(`materias/${slug}/index.html`, page({
     title: `${MTITLE[a.id]} | De León Cordero Abogados`,
     description: `${a.s} De León Cordero Abogados, despacho en Zapopan, Jalisco.`,
     canonical, current:'materias',
-    jsonld: {"@context":"https://schema.org","@type":"Service","name":a.t,"serviceType":a.t,"areaServed":["Zapopan","Guadalajara","Jalisco"],"provider":ORG,"url":canonical},
+    jsonld: {"@context":"https://schema.org","@graph":[{"@type":"Service","name":a.t,"serviceType":a.t,"areaServed":["Zapopan","Guadalajara","Jalisco"],"provider":ORG,"url":canonical}].concat(faqs.length ? [{"@type":"FAQPage","url":canonical,"mainEntity":faqs.map(f => ({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))}] : [])},
     hero: `<p class="eyebrow"><i class="dia"></i>Prácticas</p><h1>${esc(MTITLE[a.id])}</h1><p class="lead">${esc(a.s)}</p>`,
     content
   }));
