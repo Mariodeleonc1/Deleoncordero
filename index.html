@@ -724,7 +724,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wra
     c.className = 'card reveal'; c.dataset.m = x.m;
     c.innerHTML = '<div class="meta"><span class="cat"><i class="dia"></i>'+shortOf[x.m]+'</span><span class="status">'+(pub?x.fecha:'Próximamente')+'</span></div>'+
       '<h3>'+x.titulo+'</h3><p>'+x.resumen+'</p>'+
-      '<div class="foot">'+(pub?'<a class="pill" href="/noticias/'+slugOf(x.titulo)+'/">Leer artículo '+arrow+'</a>':'<span style="color:var(--soft)">En preparación por el despacho</span>')+'</div>';
+      '<div class="foot">'+(pub?'<a class="pill" href="/noticias/'+(x.slug||slugOf(x.titulo))+'/">Leer artículo '+arrow+'</a>':'<span style="color:var(--soft)">En preparación por el despacho</span>')+'</div>';
     grid.appendChild(c);
   });
   function filter(id){
@@ -789,7 +789,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wra
   ARTICLES.forEach(function(x,i){
     var c = document.createElement('article'); c.className = 'nwc'; c.tabIndex = 0;
     c.innerHTML = '<div class="top"><span>'+(x.fecha||'Próximamente')+'</span><span class="tag">'+shortOf[x.m]+'</span></div><h3>'+x.titulo+'</h3><div class="art">'+art(i+3, TONES[x.m])+'</div>';
-    function go(){ if (x.cuerpo) location.href = '/noticias/' + slugOf(x.titulo) + '/'; else { filter(x.m); location.hash = 'noticias'; } }
+    function go(){ if (x.cuerpo) location.href = '/noticias/' + (x.slug||slugOf(x.titulo)) + '/'; else { filter(x.m); location.hash = 'noticias'; } }
     c.addEventListener('click', go); c.addEventListener('keydown', function(e){ if (e.key==='Enter') go(); });
     nwTrack.appendChild(c);
   });

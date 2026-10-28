@@ -29,7 +29,7 @@ const arrow = '<svg width="18" height="18" viewBox="0 0 18 18" fill="none" strok
 
 // Slugs únicos de artículos
 const used = {};
-ARTICLES.forEach(a => { let s = slugOf(a.titulo), k = s, n = 2; while (used[k]) k = s + '-' + n++; used[k] = 1; a.slug = k; a.iso = isoOf(a.fecha); });
+ARTICLES.forEach(a => { let s = a.slug || slugOf(a.titulo), k = s, n = 2; while (used[k]) k = s + '-' + n++; used[k] = 1; a.slug = k; a.iso = isoOf(a.fecha); });
 
 function page({title, description, canonical, ogImage, jsonld, hero, content, current}){
   return `<!doctype html>
