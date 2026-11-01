@@ -5,6 +5,86 @@
    y fuentes (nombre y url). */
 window.ARTICLES = [
   {
+    "m": "familiar",
+    "titulo": "¿Tiene derecho a compensación por la casa que su expareja compró a crédito antes de la boda y terminó de pagar durante el matrimonio?",
+    "resumen": "La Suprema Corte fijó jurisprudencia obligatoria que permite tomar en cuenta, para la compensación económica en un divorcio bajo separación de bienes, la parte del crédito que se pagó durante el matrimonio.",
+    "fecha": "1 de noviembre de 2026",
+    "cuerpo": [
+      "Imagine que su pareja firmó un crédito para comprar una casa poco antes de la boda. Se casaron por separación de bienes, usted se dedicó al hogar y a los hijos, y su pareja siguió pagando las mensualidades. Hoy el matrimonio terminó y la casa está a nombre de su expareja.",
+      "¿Tiene usted derecho a que esa vivienda se tome en cuenta para la compensación que la ley reconoce a quien trabajó en casa? Hasta hace unos días la respuesta dependía del tribunal. El 26 de octubre de 2026 el Pleno de la Suprema Corte de Justicia de la Nación resolvió la duda con un criterio que ahora obliga a todos los jueces del país.",
+      "## Dos tribunales, dos respuestas opuestas",
+      "La compensación económica es una cantidad que, al divorciarse, puede reclamar el cónyuge casado por separación de bienes que se dedicó preponderantemente al hogar y al cuidado de la familia, pues ese trabajo, aunque no recibe sueldo, permitió que el otro trabajara fuera de casa y formara su propio patrimonio.",
+      "En Veracruz, el Segundo Tribunal Colegiado en Materia Civil del Séptimo Circuito resolvió el amparo directo 391/2022 y dejó fuera de la compensación un inmueble porque el contrato de crédito se había firmado antes del matrimonio.",
+      "En Aguascalientes, el Primer Tribunal Colegiado del Trigésimo Circuito resolvió el amparo directo 418/2024 en sentido contrario. Sostuvo que debía tomarse en cuenta la parte del precio pagada durante la vida matrimonial, porque en esos pagos también influyó el trabajo del hogar y de cuidados del otro cónyuge.",
+      "Cuando dos tribunales resuelven casos parecidos de forma opuesta se presenta lo que la ley llama una contradicción de criterios, y corresponde a la Suprema Corte decidir cuál debe prevalecer. Así nació la Contradicción de Criterios 53/2026.",
+      "## La pregunta que debía responderse",
+      "¿Puede considerarse para la compensación económica un bien comprado a crédito antes del matrimonio, pero pagado durante su vigencia?",
+      "## Lo que decidió el Pleno de la Suprema Corte",
+      "El Pleno respondió que sí, aunque con una precisión importante. La fecha en que se firmó el crédito no impide tomar en cuenta el inmueble, pero lo que se considera es el porcentaje del crédito que se cubrió mientras duró el matrimonio y no el valor total de la casa. La parte pagada antes de la boda queda fuera del cálculo.",
+      "La Suprema Corte explicó que la aportación que cuenta no se limita a quien pagó directamente las mensualidades, toda vez que el trabajo doméstico y de cuidados permitió que el otro cónyuge tuviera tiempo para trabajar y abonar a ese crédito. Dar valor únicamente al dinero desconocería el principio de igualdad entre los cónyuges.",
+      "Asimismo, el criterio no convierte la casa en un bien común ni cambia a su propietario o las obligaciones del crédito, y el juez deberá revisar que se cumplan los demás requisitos, en particular que usted haya realizado el trabajo del hogar o de cuidados.",
+      "## Qué significa para usted en Jalisco",
+      "Aunque los casos venían de otros estados, la regla le interesa directamente. De conformidad con el artículo 217 de la Ley de Amparo, la jurisprudencia de la Suprema Corte es obligatoria para todas las autoridades jurisdiccionales de la Federación y de los estados, de modo que los jueces de Jalisco deberán aplicarla.",
+      "Además, el Código Civil del Estado de Jalisco contiene una regla muy parecida a las que interpretó la Suprema Corte. Su artículo 417-Bis reconoce al cónyuge casado por separación de bienes que se dedicó preponderantemente a las labores no remuneradas del hogar y, en su caso, al cuidado de los hijos, el derecho a una compensación que no puede ser superior al cuarenta por ciento del valor de los bienes adquiridos durante el matrimonio.",
+      "En ese tenor, si usted vive una situación así, conviene reunir desde ahora el contrato de crédito, los estados de cuenta que muestren cuánto se había pagado al momento de la boda y cuánto se pagó después, el acta de matrimonio con el régimen de separación de bienes y las pruebas de su dedicación al hogar y a los hijos, como constancias escolares o testimonios de personas cercanas.",
+      "Ahora bien, la tesis de jurisprudencia que deriva de esta resolución aún no aparece publicada en el Semanario Judicial de la Federación, por lo que todavía no es posible transcribir su texto, aunque la Suprema Corte ya dio a conocer el criterio en su comunicado oficial.",
+      "## Antes de iniciar o contestar un divorcio",
+      "Cada matrimonio tiene su propia historia, y el monto de la compensación depende de las pruebas y de las circunstancias de la familia. En De León Cordero Abogados podemos revisar su caso, ayudarle a precisar qué parte del crédito se pagó durante el matrimonio y orientarle sobre la mejor forma de reclamar o defender sus derechos."
+    ],
+    "fuentes": [
+      {
+        "nombre": "Suprema Corte de Justicia de la Nación, comunicado de prensa número 149/2026 de 26 de octubre de 2026",
+        "url": "https://www.internet2.scjn.gob.mx/red2/comunicados/comunicado.asp?id=8572"
+      },
+      {
+        "nombre": "Suprema Corte de Justicia de la Nación, proyecto de sentencia de la Contradicción de Criterios 53/2026",
+        "url": "https://www2.scjn.gob.mx/Juridica/Engroses/Cerrados/Publico/Proyecto/2026/10/CT53_2026.pdf"
+      },
+      {
+        "nombre": "Código Civil del Estado de Jalisco, artículo 417-Bis, texto publicado por el Congreso del Estado de Jalisco con última reforma de 18 de junio de 2026",
+        "url": "https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/C%C3%B3digos/Documentos_PDF-C%C3%B3digos/C%C3%B3digo%20Civil%20del%20Estado%20de%20Jalisco-240626.pdf"
+      },
+      {
+        "nombre": "Ley de Amparo, Reglamentaria de los Artículos 103 y 107 de la Constitución Política de los Estados Unidos Mexicanos, artículo 217, texto vigente publicado por la Cámara de Diputados",
+        "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAmp.pdf"
+      }
+    ]
+  },
+  {
+    "m": "civil",
+    "titulo": "¿Puede convertirse en dueño de la casa que habita desde hace años sin escrituras? Lo que exige la ley de Jalisco para la usucapión",
+    "resumen": "El Código Civil del Estado de Jalisco permite que quien posee un inmueble como dueño durante cinco o diez años obtenga una sentencia que le sirva de título de propiedad.",
+    "fecha": "1 de noviembre de 2026",
+    "cuerpo": [
+      "Una familia compró hace ocho años un terreno en las afueras de Zapopan. Pagó el precio completo, recibió un contrato privado firmado por el vendedor y construyó ahí su casa. Nunca acudió al notario y, cuando por fin quiso hacerlo, el vendedor ya no aparecía. ¿Podrá algún día tener la casa a su nombre?",
+      "En muchos casos la respuesta es afirmativa, gracias a una figura que el Código Civil del Estado de Jalisco llama usucapión y que en otros estados se conoce como prescripción positiva.",
+      "## Qué es la usucapión",
+      "De conformidad con el artículo 879 del Código Civil del Estado de Jalisco, la usucapión es el medio para adquirir la propiedad mediante la posesión con el ánimo de dueño, por el tiempo y con los requisitos que señala la ley.",
+      "Dicho en palabras sencillas, quien ha ocupado un bien como si fuera suyo, a la vista de todos y sin conflictos, durante el tiempo suficiente, puede convertirse legalmente en propietario.",
+      "## Los cuatro requisitos de la posesión",
+      "El artículo 889 exige que la posesión sea en concepto de propietario, es decir, que usted se comporte y sea reconocido como dueño y no como inquilino o cuidador. Debe ser pacífica, esto es, obtenida sin violencia. Debe ser continua, sin interrupciones, y debe ser pública, de modo que los vecinos y la comunidad sepan que usted ocupa el inmueble.",
+      "Conviene subrayar que quien renta una casa o la cuida por encargo del dueño no posee como propietario. El artículo 880 aclara que solo la posesión en concepto de dueño puede producir la usucapión, y que si quien poseía de otra forma cambia la causa de su posesión, por ejemplo porque compra el inmueble, el plazo comienza a contar desde ese cambio.",
+      "## Cuánto tiempo se necesita",
+      "El artículo 890 fija los plazos para los inmuebles. Son cinco años cuando se posee de buena fe en el momento de la adquisición, y también cinco años cuando el inmueble ha sido objeto de una inscripción de posesión. Son diez años cuando se posee de mala fe, siempre que la posesión sea en concepto de propietario, pacífica, continua y pública.",
+      "Ahora bien, ¿qué significa poseer de buena fe? Según el artículo 856, lo es quien tiene un título suficiente para usar y disfrutar del bien, como un contrato de compraventa, o quien ignora los defectos de ese título. El artículo 857 agrega que la buena fe se presume siempre, de modo que quien afirme lo contrario debe probarlo.",
+      "Asimismo, la ley no favorece el abandono. El mismo artículo 890 aumenta en una tercera parte los plazos de cinco y diez años si se demuestra que el poseedor no cultivó un terreno rústico durante la mayor parte del tiempo, o que una finca urbana permaneció deshabitada la mayor parte del tiempo por no haberse hecho las reparaciones necesarias.",
+      "El artículo 888 permite, además, sumar al tiempo propio el que poseyó la persona que le transmitió el bien, siempre que ambas posesiones cumplan los requisitos legales.",
+      "## Lo que puede echar abajo años de espera",
+      "De acuerdo con el artículo 895, el plazo se interrumpe si usted pierde la posesión por más de un año, si se presenta una demanda en su contra o si usted reconoce de palabra, por escrito o con hechos indudables que el inmueble pertenece a otra persona. Cuando eso ocurre, el artículo 896 dispone que se pierde todo el tiempo transcurrido antes de la interrupción. Por ello, firmar un arrendamiento con quien aparece como dueño puede borrar años de posesión.",
+      "## Cómo se obtiene el título",
+      "Cumplido el plazo, el artículo 898 permite demandar a quien aparece como propietario en el Registro Público de la Propiedad, para que el juez declare que la usucapión se consumó y que usted adquirió la propiedad. La sentencia firme que así lo declare se inscribe en ese registro y sirve como título de propiedad, conforme al artículo 899.",
+      "## Qué conviene hacer desde hoy",
+      "Si usted se encuentra en una situación parecida, conviene reunir el contrato o documento con el que recibió el inmueble, los recibos del pago del precio, los comprobantes del impuesto predial, del agua y de la luz, y las fotografías de las mejoras. También es importante identificar a vecinos que puedan declarar desde cuándo vive usted ahí y que lo conocen como dueño, así como obtener un certificado del Registro Público de la Propiedad para saber contra quién debe dirigirse la demanda.",
+      "Cada caso exige revisar con cuidado los documentos y el tiempo transcurrido. En De León Cordero Abogados podemos analizar su situación y acompañarle en el juicio para que la casa en la que ha invertido su esfuerzo quede, por fin, a su nombre."
+    ],
+    "fuentes": [
+      {
+        "nombre": "Código Civil del Estado de Jalisco, artículos 856, 857 y 879 a 899, texto publicado por el Congreso del Estado de Jalisco con última reforma de 18 de junio de 2026",
+        "url": "https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/C%C3%B3digos/Documentos_PDF-C%C3%B3digos/C%C3%B3digo%20Civil%20del%20Estado%20de%20Jalisco-240626.pdf"
+      }
+    ]
+  },
+  {
     "m": "amparo",
     "titulo": "¿Puede la autoridad ejecutar un acto mientras usted lo combate en amparo? Lo que cambió con la reforma de 2025",
     "resumen": "La suspensión puede detener a la autoridad mientras el juez decide, pero desde octubre de 2025 obtenerla exige una petición mucho más cuidadosa.",
