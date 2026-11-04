@@ -4,6 +4,90 @@
    cuerpo (párrafos; los que empiezan con "## " son subtítulos y con "> " son transcripciones de jurisprudencia)
    y fuentes (nombre y url). */
 window.ARTICLES = [
+{
+  "m": "amparo",
+  "titulo": "¿Le congelaron su cuenta bancaria y vive en otra ciudad? La Suprema Corte definió ante qué juez debe promover su amparo",
+  "resumen": "El Pleno de la Suprema Corte fijó jurisprudencia obligatoria, pues el amparo contra el aseguramiento de una cuenta bancaria corresponde al juzgado de distrito del lugar de la sucursal asociada a esa cuenta, sin importar dónde viva su titular.",
+  "fecha": "4 de noviembre de 2026",
+  "cuerpo": [
+    "Imagine que abrió su cuenta hace años en una sucursal de Monterrey, cuando trabajaba en aquella ciudad. Hoy vive en Zapopan y una mañana, al intentar pagar en el cajero, descubre que no puede disponer de su dinero porque una autoridad ordenó inmovilizar la cuenta.",
+    "Usted decide defenderse con un juicio de amparo, que es el medio para pedir a un juez federal que revise si una autoridad violó sus derechos. ¿Puede presentar la demanda aquí, donde vive, o debe acudir a la ciudad donde está la sucursal?",
+    "## Dos respuestas para un mismo problema",
+    "Hasta hace unos días la contestación variaba según el tribunal que la diera. De un lado, el Pleno Regional en Materias Administrativa y Civil de la Región Centro-Norte sostenía que la demanda podía presentarse ante el juez del lugar de la sucursal en que se abrió la cuenta o ante el del domicilio de su titular.",
+    "Del otro, el Pleno Regional en las mismas materias de la Región Centro-Sur aceptaba al juez del lugar de apertura o al del lugar en que la persona tuvo conocimiento de la orden, toda vez que entendía que los efectos del bloqueo se resienten dondequiera que se intente hacer una operación.",
+    "Cuando órganos de esta clase resuelven de manera distinta un mismo problema jurídico se presenta una contradicción de criterios, y corresponde a la Suprema Corte de Justicia de la Nación decidir cuál regla debe seguirse. Así nació la Contradicción de Criterios 129/2026.",
+    "## La duda que debía despejarse",
+    "¿Qué juzgado de distrito debe conocer del amparo contra una orden que asegura o inmoviliza una cuenta bancaria cuando su titular se entera de ella en un lugar distinto al de su apertura?",
+    "## La respuesta del Pleno de la Suprema Corte",
+    "El 28 de octubre de 2026 el Pleno resolvió, con carácter de jurisprudencia, que el competente es el juzgado de distrito con jurisdicción en el lugar donde se encuentra la sucursal bancaria asociada a la cuenta afectada.",
+    "La razón parte del artículo 37 de la Ley de Amparo, de conformidad con el cual es competente el juez del lugar donde el acto reclamado se ejecuta. Para la Suprema Corte, la orden se ejecuta cuando se incorpora a los registros del banco respecto de una cuenta determinada, y esa cuenta está ligada desde su apertura a una sucursal identificable.",
+    "En ese tenor, ni el domicilio de quien promueve ni el lugar donde se enteró del bloqueo sirven para fijar qué juez debe conocer, pues esas circunstancias no cambian el sitio en que la orden fue ejecutada.",
+    "## Qué significa para usted",
+    "La regla le interesa aunque los criterios enfrentados no hayan surgido en Jalisco. De acuerdo con el artículo 217 de la Ley de Amparo, la jurisprudencia del Pleno de la Suprema Corte obliga a los órganos jurisdiccionales de todo el país, de modo que también deben aplicarla los juzgados federales con sede en este estado.",
+    "Si su cuenta está asociada a una sucursal de Monterrey, el amparo corresponde a un juzgado de distrito de esa ciudad, aunque usted viva en Zapopan.",
+    "Ahora bien, este criterio solo define ante quién se promueve. No resuelve si la orden de inmovilización fue legal o ilegal, pues eso se analiza dentro de cada juicio.",
+    "Equivocarse de juzgado tampoco es un detalle menor. El artículo 48 de la Ley de Amparo dispone que el juez que se considera incompetente remite la demanda al que estima competente sin decidir sobre su admisión ni sobre la suspensión del acto, salvo en casos excepcionales de especial gravedad. Por ello, un error en este punto puede demorar la respuesta justo cuando usted necesita disponer de su dinero.",
+    "## Lo que conviene hacer si le ocurre",
+    "Por regla general, el plazo para presentar la demanda es de quince días conforme al artículo 17 de la Ley de Amparo, y el artículo 18 ordena contarlo, entre otros supuestos, desde el día siguiente a aquel en que usted tuvo conocimiento del acto.",
+    "Asimismo, conviene localizar su contrato o un estado de cuenta para identificar la sucursal asociada, guardar todo aviso del banco y anotar la fecha exacta en que se enteró del bloqueo.",
+    "Por último, la tesis de jurisprudencia que deriva de esta resolución todavía no aparece publicada en el Semanario Judicial de la Federación, por lo que aún no es posible transcribir su texto, aunque el criterio ya fue dado a conocer por la Suprema Corte en su comunicado oficial.",
+    "## Antes de presentar su demanda",
+    "Cada bloqueo tiene su origen y sus propias reglas, de modo que conviene revisar con cuidado qué autoridad lo ordenó y qué defensa resulta procedente. En De León Cordero Abogados podemos analizar su caso y orientarle para que acuda a tiempo y ante el juzgado correcto."
+  ],
+  "fuentes": [
+    {
+      "nombre": "Suprema Corte de Justicia de la Nación, comunicado de prensa número 153/2026 de 28 de octubre de 2026",
+      "url": "https://www.internet2.scjn.gob.mx/red2/comunicados/comunicado.asp?id=8576"
+    },
+    {
+      "nombre": "Suprema Corte de Justicia de la Nación, proyecto de sentencia de la Contradicción de Criterios 129/2026",
+      "url": "https://www2.scjn.gob.mx/Juridica/Engroses/Cerrados/Publico/Proyecto/2026/10/CT129_2026.pdf"
+    },
+    {
+      "nombre": "Ley de Amparo, Reglamentaria de los Artículos 103 y 107 de la Constitución Política de los Estados Unidos Mexicanos, artículos 17, 18, 37, 48 y 217, texto vigente publicado por la Cámara de Diputados con última reforma de 16 de octubre de 2025",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAmp.pdf"
+    }
+  ]
+},
+{
+  "m": "agrario",
+  "titulo": "¿Puede un solo ejidatario anular lo que la asamblea decidió sobre las tierras de uso común? El límite que confirmó la Suprema Corte",
+  "resumen": "El Pleno de la Suprema Corte validó que, para combatir con efectos colectivos una asignación de tierras aprobada por la asamblea ejidal, los inconformes representen al menos el veinte por ciento de los ejidatarios, sin cerrar la puerta al reclamo individual.",
+  "fecha": "4 de noviembre de 2026",
+  "cuerpo": [
+    "Suponga que usted es ejidatario y que un domingo la asamblea aprueba convertir parte de las tierras de uso común en zona de viviendas. Se reparten los lotes y a usted no le toca ninguno. Molesto, piensa acudir al tribunal para que tire por completo aquella decisión. ¿Puede hacerlo por su cuenta?",
+    "Una respuesta reciente de la Suprema Corte de Justicia de la Nación aclara hasta dónde llega el reclamo de una persona y desde dónde hace falta el respaldo de un grupo.",
+    "## Lo que ocurrió en un ejido de Yucatán",
+    "Varias personas ejidatarias de Yucatán demandaron la nulidad de una asamblea en la que se modificó el destino de tierras de uso común para volverlas áreas de asentamiento humano, es decir, el espacio donde se levanta el poblado, y se asignaron solares, que son los terrenos destinados a construir.",
+    "Un tribunal unitario agrario se negó a anular toda la asamblea, aunque reconoció que quienes demandaron tenían derecho a recibir solares de los que habían quedado sin asignar. Después, un tribunal colegiado les negó el amparo, pues consideró que estas decisiones involucran derechos colectivos y no pueden invalidarse a petición individual. El asunto llegó así a la Suprema Corte.",
+    "## La cuestión de fondo",
+    "¿Es válido que la ley exija reunir a una parte importante del ejido para poder impugnar con efectos colectivos una asignación de tierras aprobada por la asamblea?",
+    "## La decisión y sus razones",
+    "El 1 de octubre de 2026, al resolver el Amparo Directo en Revisión 6692/2025, el Pleno de la Suprema Corte respondió que sí. Declaró constitucional el requisito del artículo 61 de la Ley Agraria, conforme al cual quienes se inconforman deben constituir al menos el veinte por ciento del total de los ejidatarios del núcleo.",
+    "El Pleno explicó que las tierras de uso común son el sustento económico de la vida comunitaria del ejido y gozan de una protección especial por la naturaleza colectiva de los derechos que involucran. Por ello consideró razonable y proporcional la exigencia, ya que protege la seguridad jurídica, el buen gobierno interno del ejido y la voluntad de la colectividad.",
+    "Ahora bien, la Suprema Corte hizo una precisión importante, pues la regla no impide que una persona acuda sola a los tribunales cuando reclame una afectación concreta a sus propios derechos. Lo que no puede lograr ese reclamo individual es invalidar la asignación de tierras de los demás integrantes del ejido. De hecho, en este caso los tribunales agrarios protegieron el derecho particular de los demandantes a recibir un solar.",
+    "## Qué significa para usted",
+    "En la práctica existen dos caminos, y conviene distinguirlos desde el principio. Si lo que busca es echar abajo la asignación, necesita sumar a la quinta parte de los ejidatarios. En un ejido de doscientas personas, por ejemplo, harían falta cuarenta. Si lo que busca es que se respete su propio derecho, puede demandar individualmente, aunque el resto de la asignación seguirá en pie.",
+    "Asimismo, el artículo 61 prevé que la impugnación puede presentarse directamente ante el tribunal agrario o por medio de la Procuraduría Agraria, y que el Procurador puede actuar de oficio cuando presuma vicios o defectos graves en la asignación o cuando esta pueda perturbar seriamente el orden público.",
+    "Este asunto se resolvió para un caso concreto y el comunicado oficial no lo presenta como jurisprudencia, por lo que no debe entenderse como una resolución de contradicción de criterios. Con todo, le interesa aunque usted viva en Jalisco, toda vez que la Ley Agraria es una ley federal y su artículo 61 se aplica por igual a los ejidos de este estado. Además, la Suprema Corte ya confirmó la validez de esa norma.",
+    "## Lo que conviene hacer sin demora",
+    "El dato más delicado es el tiempo. De conformidad con el mismo artículo 61, la asignación que no se impugna dentro de los noventa días naturales posteriores a la resolución de la asamblea queda firme y definitiva. Esos días incluyen sábados, domingos y festivos, de modo que no conviene esperar.",
+    "Por lo anterior, si no está de acuerdo con una decisión de su asamblea, procure obtener cuanto antes copia del acta, anote la fecha en que se celebró y averigüe cuántos ejidatarios integran el núcleo y cuántos comparten su inconformidad.",
+    "Además, recuerde que la Procuraduría Agraria tiene entre sus funciones asesorar y, en su caso, representar a ejidatarios, de acuerdo con el artículo 136 de la Ley Agraria, y también promover la conciliación de intereses.",
+    "## Una decisión a tiempo",
+    "Cada ejido tiene su propia historia, y elegir entre la acción colectiva y el reclamo individual puede definir el resultado del juicio. En De León Cordero Abogados podemos revisar el acta de su asamblea y orientarle sobre el camino que mejor proteja sus derechos."
+  ],
+  "fuentes": [
+    {
+      "nombre": "Suprema Corte de Justicia de la Nación, comunicado de prensa número 139/2026 de 1 de octubre de 2026",
+      "url": "https://www.internet2.scjn.gob.mx/red2/comunicados/comunicado.asp?id=8562"
+    },
+    {
+      "nombre": "Ley Agraria, artículos 61 y 136, texto vigente publicado por la Cámara de Diputados con última reforma de 14 de noviembre de 2025",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAgra.pdf"
+    }
+  ]
+},
   {
     "m": "familiar",
     "titulo": "¿Tiene derecho a compensación por la casa que su expareja compró a crédito antes de la boda y terminó de pagar durante el matrimonio?",
