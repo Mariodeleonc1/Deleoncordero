@@ -5,6 +5,99 @@
    y fuentes (nombre y url). */
 window.ARTICLES = [
 {
+ "m": "familiar",
+ "titulo": "¿Puede desconocer a un hijo años después si una prueba genética demuestra que no es suyo? El plazo que validó la Suprema Corte",
+ "resumen": "El Pleno de la Suprema Corte validó el plazo que la ley de Chiapas fija para desconocer la paternidad, aun cuando una prueba genética posterior descarte el vínculo biológico, y el Código Civil de Jalisco contiene una regla semejante de noventa días.",
+ "fecha": "8 de noviembre de 2026",
+ "cuerpo": [
+  "Piense en un hombre que registró a un niño como su hijo, convivió con él y tiempo después se realizó una prueba genética que descartó el parentesco. ¿Basta esa prueba para que un juez borre su nombre del acta de nacimiento, sin importar cuánto tiempo haya pasado?",
+  "La Suprema Corte de Justicia de la Nación atendió una historia muy parecida el 3 de noviembre de 2026.",
+  "## Una prueba de laboratorio frente a un plazo vencido",
+  "El niño nació durante una relación de concubinato, que es la unión de una pareja que hace vida en común sin haberse casado, y fue registrado como hijo del hombre. Después de obtener un estudio genético que descartaba el lazo biológico, él promovió un juicio para modificar el acta de nacimiento y terminar con la filiación, que es el vínculo jurídico entre padre e hijo.",
+  "La madre, en representación del niño, contestó que la demanda llegaba tarde porque ya había transcurrido el plazo legal. El Código Civil para el Estado de Chiapas concede sesenta días para esa acción, y así la discusión llegó hasta la Suprema Corte.",
+  "## El punto que debía aclararse",
+  "¿Es válido que la ley limite a un plazo breve la posibilidad de desconocer la paternidad, aunque más tarde una prueba genética indique que no existe vínculo biológico?",
+  "## Por qué el Pleno respaldó el plazo",
+  "Al resolver el Amparo Directo en Revisión 5065/2025, el Pleno determinó que el artículo 326 de ese código es constitucional. El plazo corre desde el nacimiento si el presunto padre estuvo presente, desde su llegada al lugar si estuvo ausente o desde que descubrió que se le había ocultado el nacimiento.",
+  "La Suprema Corte explicó que esta caducidad, es decir, la pérdida del derecho por no ejercerlo a tiempo, protege la certeza de la filiación y la estabilidad familiar. De ese vínculo derivan, entre otros, derechos alimentarios y hereditarios.",
+  "Ahora bien, un estudio genético posterior puede dar un motivo objetivo para dudar. Sin embargo, si el plazo comenzara a contar cuando el adulto decide investigar, la niña o el niño podría quedar en la incertidumbre por tiempo indefinido.",
+  "Asimismo, sostuvo que el derecho a la identidad no se agota en la genética, pues comprende también la realidad familiar y social en la que crece la persona. Por ello, la falta de vínculo biológico no obliga por sí sola a deshacer una filiación fuera de los plazos legales.",
+  "## Lo que esto significa si usted vive en Jalisco",
+  "La decisión versó sobre una norma de Chiapas y no modifica la legislación de nuestro estado. El comunicado oficial tampoco informa la votación. De conformidad con el artículo 222 de la Ley de Amparo, las razones de una sentencia del Pleno son obligatorias para todos los tribunales del país cuando se aprueban por mayoría de seis votos. Ese dato deberá revisarse cuando se publique la sentencia.",
+  "El tema importa en Jalisco porque el artículo 462 del Código Civil del Estado contiene una regla muy parecida. El marido que tenga derecho a contradecir la paternidad debe demandar dentro de noventa días contados desde el nacimiento si está presente, desde que llegó al lugar si estuvo ausente o desde que descubrió el fraude si se le ocultó el nacimiento.",
+  "El artículo 467 exige que el desconocimiento se haga por demanda ante el juez competente, y cualquier otra forma es nula. Conforme al artículo 468, en ese juicio serán oídos la madre y el hijo, y el juez atenderá siempre el interés superior de los menores. Además, el artículo 470 impide transigir sobre la filiación, por lo que un arreglo privado no puede resolverla.",
+  "Si la relación fue de concubinato o el reconocimiento se hizo fuera de matrimonio, la vía y el plazo deben revisarse de acuerdo con los hechos de cada caso, toda vez que el artículo 462 se refiere expresamente al marido.",
+  "## Antes de tomar una decisión",
+  "Si usted duda de una paternidad, no conviene esperar. Localice el acta de nacimiento y conserve los documentos que demuestren cualquier ocultamiento.",
+  "Si usted es madre o tutor y recibe una demanda de este tipo, revise de inmediato las fechas, pues el vencimiento del plazo puede ser una defensa decisiva. Tenga presente también que, mientras un juez no resuelva lo contrario, la filiación registrada sigue produciendo efectos, de modo que nadie debe suspender por su cuenta los alimentos.",
+  "Por tratarse de una resolución muy reciente, lo anterior se apoya en el comunicado oficial de la Suprema Corte, que advierte que las sentencias son la única versión oficial.",
+  "## Una decisión que no admite demora",
+  "Asuntos como este combinan emociones intensas y plazos que no se detienen. En De León Cordero Abogados podemos revisar su situación con la debida discreción y explicarle qué camino tiene a su alcance."
+ ],
+ "fuentes": [
+  {
+   "nombre": "Suprema Corte de Justicia de la Nación, comunicado de prensa número 155/2026 de 3 de noviembre de 2026",
+   "url": "https://www.internet2.scjn.gob.mx/red2/comunicados/comunicado.asp?id=8579"
+  },
+  {
+   "nombre": "Código Civil del Estado de Jalisco, artículos 462, 467, 468 y 470, texto publicado por el Congreso del Estado de Jalisco con versión de 24 de junio de 2026",
+   "url": "https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/C%C3%B3digos/Documentos_PDF-C%C3%B3digos/C%C3%B3digo%20Civil%20del%20Estado%20de%20Jalisco-240626.pdf"
+  },
+  {
+   "nombre": "Ley de Amparo, Reglamentaria de los Artículos 103 y 107 de la Constitución Política de los Estados Unidos Mexicanos, artículo 222, texto vigente publicado por la Cámara de Diputados con última reforma de 16 de octubre de 2025",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAmp.pdf"
+  }
+ ]
+},
+{
+ "m": "civil",
+ "titulo": "¿Compró su casa a plazos y el vendedor sigue siendo dueño hasta el último pago? Cuándo puede defenderla con un amparo",
+ "resumen": "El Pleno de la Suprema Corte fijó jurisprudencia obligatoria, pues quien compra un inmueble con reserva de dominio puede promover amparo indirecto contra actos que afecten su posesión cuando el contrato le entregó la posesión material y jurídica antes de esos actos.",
+ "fecha": "8 de noviembre de 2026",
+ "cuerpo": [
+  "Usted firma ante notario la compra de una casa, entrega un enganche y se muda con su familia. El saldo se pagará en abonos y, mientras tanto, el vendedor conserva la propiedad. Un día llega una orden de desalojo derivada de un juicio en el que usted nunca participó. ¿Puede defenderse con un amparo si todavía no es dueño?",
+  "La respuesta podía cambiar según el tribunal, hasta que el 26 de agosto de 2026 la Suprema Corte de Justicia de la Nación puso fin a esa diferencia.",
+  "## Dos compradores y dos respuestas opuestas",
+  "En Veracruz, una persona compró un inmueble con reserva de dominio, que es el pacto por el cual el vendedor sigue siendo propietario hasta que se cumpla la condición convenida, normalmente el pago total del precio. Tras un juicio civil ajeno a ella se ordenó el desalojo, y promovió amparo. El Primer Tribunal Colegiado en Materia Civil del Séptimo Circuito concluyó que carecía de interés jurídico porque, al haberse reservado el dominio el vendedor, ella no era propietaria.",
+  "En Ciudad Juárez, otra persona con un contrato semejante se encontró con que la autoridad había asegurado el inmueble y colocado sellos que impedían el acceso. Un juzgado de distrito dio por terminado el juicio por la misma razón, pero el tribunal colegiado que revisó el caso le otorgó la protección de la justicia federal, pues en la escritura constaba que había recibido la posesión material y jurídica del bien.",
+  "Como dos tribunales de distintas regiones resolvieron de manera opuesta, surgió la Contradicción de Criterios 107/2026, a cargo del Pleno de la Suprema Corte.",
+  "## La cuestión por resolver",
+  "¿Basta un contrato de compraventa con reserva de dominio para que el comprador que ya ocupa el inmueble pueda acudir al amparo contra actos que afecten esa posesión?",
+  "## La posesión también merece protección",
+  "El Pleno determinó, con carácter de jurisprudencia, que la persona compradora cuenta con interés jurídico para promover amparo indirecto cuando del contrato derive la transmisión de la posesión material y jurídica del inmueble, antes del acto reclamado, y este afecte directamente esa posesión. El interés jurídico es, en palabras sencillas, la titularidad de un derecho propio que el acto de autoridad perjudica, según lo exige el artículo 5, fracción I, de la Ley de Amparo.",
+  "La Suprema Corte aceptó que en esta clase de venta la propiedad no pasa al comprador sino hasta que ocurre el hecho pactado. Sin embargo, explicó que el juez no puede limitarse a preguntar quién es el dueño, pues también debe examinar si el contrato contiene cláusula expresa de entrega de la posesión.",
+  "Por lo anterior, aunque no todo contrato de este tipo acredita de manera automática el interés jurídico, sí puede constituir el título que demuestre la causa de la posesión.",
+  "## Qué significa para usted",
+  "Conforme al artículo 217 de la Ley de Amparo, la jurisprudencia del Pleno obliga a todas las autoridades jurisdiccionales del país, incluidas las de Jalisco, aunque los asuntos surgieron en otros estados.",
+  "Ahora bien, la decisión tiene límites claros. La propia Corte aclaró que no prejuzga si el amparo debe concederse ni qué valor tiene el contrato frente a las partes del juicio original o frente a terceros. Tampoco modifica los casos concretos de los que surgió la contradicción, de acuerdo con el artículo 226 de la misma ley.",
+  "En Jalisco, el artículo 1904 del Código Civil permite pactar que el vendedor se reserve la propiedad hasta que el precio sea pagado, y ese pacto produce efectos contra terceros si se inscribe en el Registro Público de la Propiedad cuando se trata de inmuebles. El artículo 1906 dispone que el comprador que recibe el bien será considerado como arrendatario mientras no adquiera el dominio.",
+  "## Revise su contrato antes de que surja el problema",
+  "Lea la escritura y confirme que exista una cláusula que indique con claridad la entrega de la posesión material y jurídica. El artículo 1908 exige, por regla general, escritura pública para la compraventa de inmuebles.",
+  "Conserve también los recibos de sus abonos y verifique en el Registro Público que el contrato esté inscrito. Si recibe una orden que afecte su posesión, recuerde que por regla general el plazo para demandar el amparo es de quince días, conforme a los artículos 17 y 18 de la Ley de Amparo, y cada día cuenta.",
+  "La tesis derivada de esta resolución no aparece todavía en el Semanario Judicial de la Federación, por lo que aún no es posible transcribir su texto.",
+  "## Su patrimonio merece una revisión a tiempo",
+  "Una cláusula bien redactada puede marcar la diferencia cuando su vivienda está en riesgo. En De León Cordero Abogados podemos revisar su contrato y orientarle sobre la mejor forma de proteger su posesión."
+ ],
+ "fuentes": [
+  {
+   "nombre": "Suprema Corte de Justicia de la Nación, comunicado de prensa número 122/2026 de 26 de agosto de 2026",
+   "url": "https://www.internet2.scjn.gob.mx/red2/comunicados/comunicado.asp?id=8543"
+  },
+  {
+   "nombre": "Suprema Corte de Justicia de la Nación, proyecto de sentencia de la Contradicción de Criterios 107/2026",
+   "url": "https://www2.scjn.gob.mx/Juridica/Engroses/Cerrados/Publico/Proyecto/2026/08/CT107_2026.pdf"
+  },
+  {
+   "nombre": "Código Civil del Estado de Jalisco, artículos 1904, 1906 y 1908, texto publicado por el Congreso del Estado de Jalisco con versión de 24 de junio de 2026",
+   "url": "https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/C%C3%B3digos/Documentos_PDF-C%C3%B3digos/C%C3%B3digo%20Civil%20del%20Estado%20de%20Jalisco-240626.pdf"
+  },
+  {
+   "nombre": "Ley de Amparo, Reglamentaria de los Artículos 103 y 107 de la Constitución Política de los Estados Unidos Mexicanos, artículos 5, 17, 18, 217 y 226, texto vigente publicado por la Cámara de Diputados con última reforma de 16 de octubre de 2025",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAmp.pdf"
+  }
+ ]
+},
+{
   "m": "amparo",
   "titulo": "¿Le congelaron su cuenta bancaria y vive en otra ciudad? La Suprema Corte definió ante qué juez debe promover su amparo",
   "resumen": "El Pleno de la Suprema Corte fijó jurisprudencia obligatoria, pues el amparo contra el aseguramiento de una cuenta bancaria corresponde al juzgado de distrito del lugar de la sucursal asociada a esa cuenta, sin importar dónde viva su titular.",
