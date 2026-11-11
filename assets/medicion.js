@@ -1,7 +1,7 @@
 /* Medición de visitas con Google Analytics 4, solo con el consentimiento de la persona.
    Mientras no acepte, no se carga ningún código de Google ni se instalan cookies. */
 (function(){
-  var GA_ID = '';
+  var GA_ID = 'G-68V89ZS5XH';
   var KEY = 'dlc-consentimiento';
   var en = (document.documentElement.lang || '').slice(0,2) === 'en';
   var T = en ? {
