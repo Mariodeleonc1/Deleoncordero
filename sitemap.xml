@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://deleoncordero.com.mx/</loc><lastmod>2026-11-08</lastmod><priority>1.0</priority></url>
-  <url><loc>https://deleoncordero.com.mx/en/</loc><lastmod>2026-11-08</lastmod><priority>0.9</priority></url>
+  <url><loc>https://deleoncordero.com.mx/</loc><lastmod>2026-11-11</lastmod><priority>1.0</priority></url>
+  <url><loc>https://deleoncordero.com.mx/en/</loc><lastmod>2026-11-11</lastmod><priority>0.9</priority></url>
   <url><loc>https://deleoncordero.com.mx/materias/amparo/</loc><lastmod>2026-11-04</lastmod><priority>0.8</priority></url>
-  <url><loc>https://deleoncordero.com.mx/materias/derecho-civil/</loc><lastmod>2026-11-08</lastmod><priority>0.8</priority></url>
-  <url><loc>https://deleoncordero.com.mx/materias/derecho-mercantil/</loc><lastmod>2026-10-22</lastmod><priority>0.8</priority></url>
-  <url><loc>https://deleoncordero.com.mx/materias/derecho-familiar/</loc><lastmod>2026-11-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/materias/derecho-civil/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/materias/derecho-mercantil/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/materias/derecho-familiar/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://deleoncordero.com.mx/materias/derecho-agrario/</loc><lastmod>2026-11-04</lastmod><priority>0.8</priority></url>
   <url><loc>https://deleoncordero.com.mx/materias/mediacion/</loc><lastmod>2026-10-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/su-socio-incumplio-lo-acordado-lo-que-puede-hacer/</loc><lastmod>2026-11-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/compro-una-casa-o-un-terreno-y-no-le-cumplieron/</loc><lastmod>2026-11-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/lo-demandaron-por-un-pagare-lo-que-debe-hacer/</loc><lastmod>2026-11-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/como-decide-el-juez-quien-se-queda-con-los-hijos/</loc><lastmod>2026-11-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/puede-divorciarse-en-jalisco-aunque-su-pareja-no-este/</loc><lastmod>2026-11-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/su-familiar-fallecio-sin-testamento-como-se-tramita-un-intestado/</loc><lastmod>2026-11-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/su-inquilino-dejo-de-pagar-la-renta-como-recuperar-su/</loc><lastmod>2026-11-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://deleoncordero.com.mx/noticias/puede-desconocer-a-un-hijo-anos-despues-si-una-prueba/</loc><lastmod>2026-11-08</lastmod><priority>0.7</priority></url>
   <url><loc>https://deleoncordero.com.mx/noticias/compro-su-casa-a-plazos-y-el-vendedor-sigue-siendo/</loc><lastmod>2026-11-08</lastmod><priority>0.7</priority></url>
   <url><loc>https://deleoncordero.com.mx/noticias/le-congelaron-su-cuenta-bancaria-y-vive-en-otra-ciudad/</loc><lastmod>2026-11-04</lastmod><priority>0.7</priority></url>
@@ -21,5 +28,6 @@
   <url><loc>https://deleoncordero.com.mx/noticias/hasta-cuando-se-debe-pagar-la-pension-alimenticia-y-que/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
   <url><loc>https://deleoncordero.com.mx/noticias/que-pasa-con-la-parcela-cuando-un-ejidatario-fallece-sin/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
   <url><loc>https://deleoncordero.com.mx/noticias/tiene-la-misma-fuerza-un-convenio-de-mediacion-que-una/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://deleoncordero.com.mx/noticias/</loc><lastmod>2026-11-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/noticias/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://deleoncordero.com.mx/aviso-de-privacidad/</loc><lastmod>2026-11-11</lastmod><priority>0.2</priority></url>
 </urlset>

@@ -31,7 +31,7 @@ const arrow = '<svg width="18" height="18" viewBox="0 0 18 18" fill="none" strok
 const used = {};
 ARTICLES.forEach(a => { let s = a.slug || slugOf(a.titulo), k = s, n = 2; while (used[k]) k = s + '-' + n++; used[k] = 1; a.slug = k; a.iso = isoOf(a.fecha); });
 
-function page({title, description, canonical, ogImage, jsonld, hero, content, current}){
+function page({title, description, canonical, ogImage, jsonld, hero, content, current, noBox}){
   return `<!doctype html>
 <html lang="es">
 <head>
@@ -52,6 +52,7 @@ function page({title, description, canonical, ogImage, jsonld, hero, content, cu
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600&display=swap">
 <link rel="stylesheet" href="/assets/sub.css">
 <script type="application/ld+json">${JSON.stringify(jsonld)}</script>
+<script src="/assets/medicion.js" defer></script>
 </head>
 <body>
 <header class="top">
@@ -63,11 +64,11 @@ function page({title, description, canonical, ogImage, jsonld, hero, content, cu
 </header>
 <section class="hero"><div class="narrow">${hero}</div></section>
 <main><div class="narrow">${content}
-<aside class="box">
+${noBox ? '' : `<aside class="box">
   <h2>¿Necesita orientación sobre su asunto?</h2>
   <p>Agende una consulta en nuestra oficina en Zapopan, de lunes a viernes, de 9:00 a 14:00 y de 16:00 a 19:00, previa cita.</p>
   <div class="actions"><a class="pill solid" href="https://wa.me/523314196669" target="_blank" rel="noopener">Escribir por WhatsApp ${arrow}</a><a class="pill" href="tel:+523330700588">Llamar al 33 3070 0588</a></div>
-</aside>
+</aside>`}
 </div></main>
 <footer>
   <div class="wrap">
@@ -75,7 +76,7 @@ function page({title, description, canonical, ogImage, jsonld, hero, content, cu
     <nav aria-label="Pie"><a href="/#firma">Firma</a><a href="/#practicas">Prácticas</a><a href="/noticias/">Noticias</a><a href="/#contacto">Contacto</a><a href="https://www.linkedin.com/in/mariodeleoncordero" target="_blank" rel="noopener me" aria-label="Mario Alberto de León Cordero en LinkedIn">LinkedIn</a><a href="https://www.facebook.com/profile.php?id=61595817688398" target="_blank" rel="noopener" aria-label="De León Cordero Abogados en Facebook">Facebook</a></nav>
     <span class="mat">${AREAS.map(a => `<a href="/materias/${MSLUG[a.id]}/">${esc(a.t)}</a>`).join(' · ')}</span>
     <span>Paseo de los Robles 4099, Colonia San Wenceslao, Zapopan, Jalisco · Teléfono 33 3070 0588 · asistente@dlcm.mx</span>
-    <span>© ${new Date().getFullYear()} De León Cordero Abogados</span>
+    <span>© ${new Date().getFullYear()} De León Cordero Abogados · <a href="/aviso-de-privacidad/">Aviso de privacidad</a></span>
   </div>
 </footer>
 </body>
@@ -154,6 +155,27 @@ write('noticias/index.html', page({
   content: `<div class="cards">${ARTICLES.map(card).join('')}</div>`
 }));
 urls.push({loc: `${SITE}/noticias/`, lastmod: urls[0].lastmod, pri:'0.8'});
+
+// Aviso de privacidad
+const AVISO = [
+ ['Identidad y domicilio del responsable', ['De León Cordero Abogados, con domicilio en Paseo de los Robles 4099, Colonia San Wenceslao, Código Postal 45110, Zapopan, Jalisco, es responsable del tratamiento de los datos personales que usted nos proporcione, de conformidad con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.']],
+ ['Datos personales que tratamos', ['Para atender su consulta y, en su caso, representarle, podemos tratar datos de identificación y contacto, como su nombre, domicilio, teléfono y correo electrónico, así como los datos y documentos relacionados con su asunto, entre ellos información patrimonial, contractual, familiar o laboral.','En los asuntos de derecho familiar y en algunos otros puede ser necesario tratar datos personales sensibles, como los relativos a su estado de salud, a su vida familiar o a la de sus hijos. Conforme al artículo 8 de la ley, en esos casos recabaremos su consentimiento expreso y por escrito.','Este sitio no cuenta con formularios. Si usted acepta las cookies de medición, Google Analytics registra datos de navegación, como las páginas que consulta, el sitio desde el que llegó, el tipo de dispositivo y una ubicación aproximada, sin identificarle por su nombre.']],
+ ['Finalidades del tratamiento', ['Sus datos se utilizan para atender su consulta, prestar los servicios jurídicos que nos encomiende, representarle ante autoridades jurisdiccionales y administrativas, comunicarnos con usted sobre su asunto y cumplir nuestras obligaciones legales y fiscales. Estas finalidades son necesarias para la relación profesional.','De manera adicional, y solo con su consentimiento, utilizamos los datos de navegación para conocer cuántas personas visitan el sitio y qué contenidos les resultan útiles, y podemos preguntarle cómo conoció al despacho con fines estadísticos. Usted puede negarse a estas finalidades sin que ello afecte la atención de su asunto.']],
+ ['Transferencias y encargados', ['Sus datos pueden comunicarse a juzgados, tribunales, autoridades administrativas, notarías, peritos y demás personas que intervengan en su asunto, cuando sea necesario para el reconocimiento, ejercicio o defensa de sus derechos en un proceso judicial, supuesto que el artículo 36 de la ley permite sin necesidad de su consentimiento. No transferimos sus datos con otros fines sin su autorización.','Asimismo, algunos proveedores tratan datos por cuenta del despacho, como el servicio de correo electrónico, el almacenamiento de documentos y Google LLC para la medición del sitio. Estos proveedores actúan como encargados y no pueden utilizar los datos para fines propios.']],
+ ['Cookies', ['El sitio solo instala cookies de Google Analytics si usted las acepta en el aviso que aparece en su primera visita. Si las rechaza, no se carga ningún código de medición. <a href="#" onclick="window.dlcPreferencias&&dlcPreferencias();return false;">Puede cambiar su preferencia en cualquier momento aquí</a>.']],
+ ['Derechos de acceso, rectificación, cancelación y oposición', ['Usted o su representante legal pueden solicitar el acceso a sus datos, su rectificación, su cancelación u oponerse a su tratamiento, así como revocar su consentimiento o limitar el uso de sus datos. La solicitud puede presentarse por escrito en nuestro domicilio o al correo asistente@dlcm.mx.','De conformidad con el artículo 28 de la ley, la solicitud debe contener su nombre y un medio para comunicarle la respuesta, los documentos que acrediten su identidad o la de su representante, la descripción de los datos y del derecho que desea ejercer, y cualquier elemento que facilite la localización de sus datos.','Le responderemos en un plazo máximo de veinte días y, si la solicitud procede, la haremos efectiva dentro de los quince días siguientes, plazos que podrán ampliarse por una sola vez por un periodo igual cuando el caso lo justifique, conforme al artículo 31. El ejercicio de estos derechos es gratuito, y solo podrán cobrarse los costos de reproducción o envío, en términos del artículo 34.']],
+ ['Cambios a este aviso', ['Cualquier modificación a este aviso de privacidad se publicará en esta misma página, con la fecha de su última actualización.']],
+ ['Autoridad', ['Si considera que su derecho a la protección de datos personales ha sido vulnerado, puede acudir ante la Secretaría Anticorrupción y Buen Gobierno, autoridad competente conforme a la ley vigente.']]
+];
+write('aviso-de-privacidad/index.html', page({
+  title: 'Aviso de privacidad | De León Cordero Abogados',
+  description: 'Aviso de privacidad integral de De León Cordero Abogados conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.',
+  canonical: `${SITE}/aviso-de-privacidad/`, noBox: true,
+  jsonld: {"@context":"https://schema.org","@type":"WebPage","name":"Aviso de privacidad","url":`${SITE}/aviso-de-privacidad/`,"publisher":ORG},
+  hero: `<p class="eyebrow"><i class="dia"></i>Privacidad</p><h1>Aviso de privacidad integral</h1><p class="meta">Última actualización 11 de noviembre de 2026</p>`,
+  content: `<article class="body">${AVISO.map(([h, ps]) => `<h2>${esc(h)}</h2>${ps.map(t => `<p>${t}</p>`).join('')}`).join('')}</article>`
+}));
+urls.push({loc: `${SITE}/aviso-de-privacidad/`, lastmod: '2026-11-11', pri:'0.2'});
 
 // Mapa del sitio
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>

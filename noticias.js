@@ -5,6 +5,218 @@
    y fuentes (nombre y url). */
 window.ARTICLES = [
 {
+ "m": "mercantil",
+ "titulo": "¿Su socio incumplió lo acordado? Lo que puede hacer para defender sus derechos en la sociedad",
+ "resumen": "La Ley General de Sociedades Mercantiles da a los socios y accionistas herramientas concretas frente a los acuerdos ilegales y la mala administración, pero casi todas tienen porcentajes y plazos que conviene conocer a tiempo.",
+ "fecha": "11 de noviembre de 2026",
+ "cuerpo": [
+  "Dos amigos fundaron una empresa hace años. Uno aportó el capital y el otro se quedó con la administración. Hoy el primero descubre que en una asamblea a la que no lo citaron correctamente se aprobó un aumento de capital que diluye su participación, y que las cuentas no cuadran. ¿Qué puede hacer?",
+  "La respuesta depende, en primer lugar, de lo que consta por escrito. El contrato social, los estatutos, las actas de asamblea y cualquier convenio entre socios son el punto de partida, porque ahí se fijan los derechos de cada uno y las reglas para tomar decisiones. Por ello, antes de cualquier acción conviene reunir esos documentos.",
+  "## Las decisiones de la asamblea obligan a todos, salvo que se impugnen a tiempo",
+  "De conformidad con el artículo 200 de la Ley General de Sociedades Mercantiles, las resoluciones legalmente adoptadas por la asamblea de accionistas son obligatorias aun para los ausentes o disidentes. Sin embargo, la propia ley permite oponerse judicialmente a ellas.",
+  "El artículo 201 concede ese derecho a los accionistas que representen el veinticinco por ciento del capital social, siempre que la demanda se presente dentro de los quince días siguientes a la clausura de la asamblea, que no hayan concurrido a ella o hayan votado en contra, y que señalen la cláusula del contrato social o el precepto legal infringido y el concepto de violación. Asimismo, el artículo 202 permite al juez suspender la ejecución del acuerdo impugnado si los actores otorgan fianza bastante para responder de los daños que pudiera sufrir la sociedad.",
+  "Ahora bien, quince días pasan muy rápido. Quien se entera tarde de un acuerdo que lo perjudica debe actuar de inmediato.",
+  "## Cuando el problema es la administración",
+  "Si quien administra la sociedad causó un daño con su gestión, el artículo 163 de la misma ley permite a los accionistas que representen al menos el veinticinco por ciento del capital ejercer directamente la acción de responsabilidad civil contra los administradores, siempre que la demanda comprenda el monto total de las responsabilidades a favor de la sociedad y que los actores no hayan aprobado la resolución de la asamblea de no proceder contra ellos. Lo que se obtenga corresponde a la sociedad.",
+  "Asimismo, el artículo 184 permite a los accionistas que representen por lo menos el treinta y tres por ciento del capital pedir por escrito que se convoque a una asamblea general, y si el administrador o los comisarios no la convocan dentro de los quince días siguientes, puede convocarla la autoridad judicial del domicilio de la sociedad.",
+  "## Cuando el socio no cumplió un convenio",
+  "No todo conflicto entre socios pasa por la asamblea. Si su socio se obligó a aportar dinero, a no competir, a vender sus acciones o a cualquier otra conducta en un convenio, ese documento puede exigirse como cualquier contrato, reclamando su cumplimiento y los daños y perjuicios. Por lo anterior, la redacción de esos acuerdos desde el inicio es la mejor protección.",
+  "## Antes de demandar",
+  "Un juicio entre socios suele afectar la operación de la empresa y la relación personal. En muchos casos conviene explorar primero la mediación, que permite llegar a un convenio con fuerza legal sin un litigio prolongado. Si esa vía no prospera, los plazos y porcentajes que señalamos marcan la estrategia.",
+  "En De León Cordero Abogados revisamos los estatutos, las actas y los convenios de su sociedad para identificar las acciones disponibles y actuar dentro de los plazos que la ley impone."
+ ],
+ "fuentes": [
+  {
+   "nombre": "Ley General de Sociedades Mercantiles, artículos 163, 184, 200, 201 y 202, texto vigente, última reforma publicada en el Diario Oficial de la Federación el 20 de octubre de 2023",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGSM.pdf"
+  }
+ ]
+},
+{
+ "m": "civil",
+ "titulo": "¿Compró una casa o un terreno y no le cumplieron? Cuándo exigir la escritura, el cumplimiento o la terminación del contrato",
+ "resumen": "El Código Civil del Estado de Jalisco permite a quien cumplió su parte exigir que el otro cumpla o dar por terminado el contrato, en ambos casos con el pago de daños y perjuicios, y obligar a firmar la escritura cuando la venta consta de manera fehaciente.",
+ "fecha": "11 de noviembre de 2026",
+ "cuerpo": [
+  "Una pareja pagó a plazos un terreno en Tlajomulco. Liquidaron el precio hace dos años, pero el vendedor nunca acudió a firmar la escritura y ahora no contesta. En otro caso, un comprador entregó un anticipo importante por una casa en Zapopan y el vendedor decidió venderla a alguien más. ¿Qué pueden hacer?",
+  "## La venta existe desde que se pusieron de acuerdo",
+  "De conformidad con el artículo 1851 del Código Civil del Estado de Jalisco, por regla general la venta es perfecta y obligatoria para las partes cuando se han convenido en forma sobre el bien y su precio, aunque el bien no se haya entregado ni el precio se haya pagado. Es decir, el acuerdo ya genera obligaciones para ambas partes.",
+  "## Si ya pagó y no le firman la escritura",
+  "La venta de un inmueble debe constar en la forma que exige la ley. Ahora bien, el artículo 1307 del mismo código establece que, si la voluntad de las partes para celebrar el contrato consta de manera fehaciente y alguna de ellas lo cumplió voluntariamente, aunque sea en parte, con la aceptación de la otra, cualquiera puede exigir que se dé al contrato la forma legal.",
+  "En palabras sencillas, si usted cuenta con el contrato privado y los comprobantes de pago, puede demandar que el vendedor firme la escritura, y si se niega, que el juez la firme en su rebeldía.",
+  "## Si el vendedor o el comprador no cumple",
+  "El artículo 1784 del Código Civil del Estado de Jalisco establece que la facultad de resolver las obligaciones se entiende implícita en los contratos en que ambas partes se obligan, para el caso de que una no cumpla lo que le corresponde. El perjudicado puede optar entre exigir el cumplimiento forzoso o la resolución del contrato, con el pago de daños y perjuicios en ambos casos, e incluso puede pedir la resolución después de haber pedido el cumplimiento cuando este resulte imposible.",
+  "En ese tenor, la decisión entre cumplimiento y resolución es estratégica. Si a usted le interesa conservar el inmueble, conviene exigir el cumplimiento. Si el vendedor ya lo transmitió a otra persona o usted prefiere recuperar su dinero, la resolución puede ser la vía adecuada, con la consecuente restitución de lo que cada parte recibió.",
+  "## Lo que conviene reunir desde hoy",
+  "Antes de decidir, reúna el contrato y sus anexos, todos los recibos y transferencias, las comunicaciones con la otra parte y un certificado del Registro Público de la Propiedad que muestre quién aparece como propietario y si el inmueble tiene gravámenes. Este último documento es indispensable para saber si el bien sigue a nombre del vendedor.",
+  "Cada contrato tiene cláusulas propias sobre penas, plazos y garantías que modifican la estrategia. En De León Cordero Abogados podemos revisar su caso y acompañarle para obtener la escritura o recuperar lo que entregó."
+ ],
+ "fuentes": [
+  {
+   "nombre": "Código Civil del Estado de Jalisco, artículos 1307, 1784 y 1851, texto publicado por el Congreso del Estado de Jalisco con última reforma de 18 de junio de 2026",
+   "url": "https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/C%C3%B3digos/Documentos_PDF-C%C3%B3digos/C%C3%B3digo%20Civil%20del%20Estado%20de%20Jalisco-240626.pdf"
+  }
+ ]
+},
+{
+ "m": "mercantil",
+ "titulo": "¿Lo demandaron por un pagaré? Lo que debe hacer en los ocho días siguientes al embargo",
+ "resumen": "En el juicio ejecutivo mercantil el demandado cuenta con un plazo breve para pagar o defenderse, y solo puede oponer las excepciones que la ley permite contra un título de crédito.",
+ "fecha": "11 de noviembre de 2026",
+ "cuerpo": [
+  "Llegó a su domicilio un actuario del juzgado, le requirió el pago de un pagaré y, al no poder cubrirlo, embargó bienes. Le entregaron unas copias y le dijeron que tiene unos días para contestar. ¿Qué debe hacer ahora?",
+  "## El plazo corre desde el embargo",
+  "De conformidad con el artículo 1396 del Código de Comercio, hecho el embargo se notifica al demandado para que, dentro del término de ocho días, comparezca ante el juzgado a hacer paga llana de la cantidad reclamada y las costas, o a oponer las excepciones que tuviere. Dejar pasar ese plazo puede significar perder la oportunidad de defenderse.",
+  "## Solo caben ciertas defensas",
+  "El pagaré es un título de crédito, y el artículo 8 de la Ley General de Títulos y Operaciones de Crédito enumera las únicas excepciones que pueden oponerse contra las acciones que de él derivan. Entre ellas se encuentran la incompetencia y la falta de personalidad del actor, no haber sido el demandado quien firmó el documento, la falta de representación o de facultades de quien firmó a su nombre, la omisión de los requisitos que el título debe llenar, la alteración de su texto, la quita o el pago parcial que consten en el documento, la prescripción y la caducidad, y las excepciones personales que el demandado tenga contra el actor.",
+  "Ahora bien, no basta con afirmar que ya se pagó o que la firma no es suya. Cada excepción debe probarse, y la estrategia depende de los documentos que usted tenga.",
+  "## Revise el tiempo transcurrido",
+  "El artículo 165 de la misma ley dispone que la acción cambiaria prescribe en tres años, contados a partir del vencimiento. Si la demanda se presentó después de ese plazo, la prescripción puede hacerse valer como defensa.",
+  "## Revise los intereses",
+  "Muchos pagarés pactan intereses muy elevados. La Primera Sala de la Suprema Corte de Justicia de la Nación, al resolver la contradicción de tesis 350/2013, estableció que el juez debe reducir de oficio los intereses notoriamente usurarios. Explicamos ese criterio y lo transcribimos íntegro en nuestro artículo sobre el cobro de pagarés publicado el 22 de octubre de 2026.",
+  "## Lo que conviene hacer de inmediato",
+  "Anote la fecha en que se practicó el embargo, guarde las copias que le entregaron y reúna los recibos, transferencias o mensajes que demuestren pagos. Si no reconoce la firma o el pagaré fue llenado con datos distintos a los acordados, dígalo a su abogado desde la primera reunión, porque esas defensas requieren pruebas específicas.",
+  "En De León Cordero Abogados revisamos el expediente, el pagaré y sus pagos para preparar su defensa dentro del plazo legal."
+ ],
+ "fuentes": [
+  {
+   "nombre": "Código de Comercio, artículo 1396, texto vigente, última reforma publicada en el Diario Oficial de la Federación el 14 de noviembre de 2025",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCom.pdf"
+  },
+  {
+   "nombre": "Ley General de Títulos y Operaciones de Crédito, artículos 8 y 165, texto vigente, última reforma publicada en el Diario Oficial de la Federación el 26 de marzo de 2024",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGTOC.pdf"
+  },
+  {
+   "nombre": "Semanario Judicial de la Federación, jurisprudencia 1a./J. 47/2014 (10a.), registro digital 2006795",
+   "url": "https://sjf2.scjn.gob.mx/detalle/tesis/2006795"
+  }
+ ]
+},
+{
+ "m": "familiar",
+ "titulo": "¿Cómo decide el juez quién se queda con los hijos? Guarda y custodia y convivencias en Jalisco",
+ "resumen": "El Código Civil del Estado de Jalisco fija un orden de preferencias para la guarda y custodia y reconoce la convivencia como un derecho de las hijas e hijos que solo un juez puede restringir.",
+ "fecha": "11 de noviembre de 2026",
+ "cuerpo": [
+  "Después de la separación, los dos padres quieren que los hijos vivan con ellos. Uno teme que el otro se los lleve a otra ciudad y el otro siente que le impiden verlos. ¿Quién decide y con qué reglas?",
+  "## Lo primero es el acuerdo de los padres",
+  "Cuando los padres se ponen de acuerdo, el juez revisa que el convenio proteja a los hijos y lo aprueba. Cuando no hay acuerdo, el artículo 572 del Código Civil del Estado de Jalisco ordena al juez considerar qué es lo más conveniente para la niña, niño o adolescente y atender un orden de preferencias.",
+  "Si los padres no viven juntos, cualquiera de los dos puede ejercer la guarda y custodia, siempre que tenga la disposición y la posibilidad efectiva de cuidar a los hijos y no tenga una conducta nociva para su salud física o psíquica. Solo cuando ninguno de los padres pueda ejercerla, el juez puede confiarla a los abuelos u otros parientes dentro del cuarto grado y, en casos excepcionales, a otras personas o instituciones.",
+  "## La convivencia es un derecho de los hijos",
+  "El artículo 573 del mismo código define el régimen de visitas y convivencia como un derecho de las personas menores de edad, autónomo de la guarda y custodia y de la patria potestad, y superior a la voluntad de quien tiene la custodia. Además, impone a los padres el deber de visitar y convivir con sus hijos para que no se pierdan los vínculos afectivos.",
+  "Por ello, la convivencia solo puede restringirse o suspenderse por declaración judicial, cuando se determine que es contraria al interés superior de la niñez. Asimismo, los padres deben abstenerse de cualquier acto que provoque en los hijos olvido, rechazo, rencor o temor hacia el otro progenitor.",
+  "## Cuándo puede limitarse",
+  "El artículo 574 enumera los casos en que procede restringir o suspender la convivencia, entre ellos la violencia intrafamiliar, los delitos contra el menor, las conductas nocivas para su salud, impedir de manera reiterada y sin causa la convivencia, promover en los hijos el rechazo hacia el otro progenitor, no asistir sin causa justificada a las visitas durante más de seis meses y presentar denuncias penales falsas contra el otro progenitor.",
+  "Ahora bien, el mismo artículo aclara que la convivencia no puede restringirse por el incumplimiento de las obligaciones alimentarias. Dejar de pagar la pensión tiene sus propias consecuencias, pero no autoriza a impedir que los hijos vean a su padre o a su madre.",
+  "## Qué medidas puede tomar el juez",
+  "Conforme al artículo 575, el juez puede decretar en todo momento las medidas necesarias para salvaguardar la convivencia y la subsistencia de los vínculos afectivos. En la práctica, esto permite fijar horarios, lugares, convivencias supervisadas o entregas en sitios neutrales, según las circunstancias de cada familia.",
+  "## Lo que conviene cuidar",
+  "Los jueces valoran la conducta de cada padre durante el proceso. Conservar mensajes respetuosos, cumplir los horarios fijados y no involucrar a los hijos en el conflicto pesa tanto como cualquier documento. En De León Cordero Abogados acompañamos a cada familia con la discreción que estos asuntos exigen, privilegiando siempre el interés superior de las niñas, niños y adolescentes."
+ ],
+ "fuentes": [
+  {
+   "nombre": "Código Civil del Estado de Jalisco, artículos 572 a 575, texto publicado por el Congreso del Estado de Jalisco con última reforma de 18 de junio de 2026",
+   "url": "https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/C%C3%B3digos/Documentos_PDF-C%C3%B3digos/C%C3%B3digo%20Civil%20del%20Estado%20de%20Jalisco-240626.pdf"
+  }
+ ]
+},
+{
+ "m": "familiar",
+ "titulo": "¿Puede divorciarse en Jalisco aunque su pareja no esté de acuerdo? Lo que dice la ley y lo que resolvió la Suprema Corte",
+ "resumen": "El Código Civil del Estado de Jalisco permite el divorcio por la sola solicitud de uno de los cónyuges, en congruencia con la jurisprudencia de la Primera Sala derivada de la contradicción de tesis 73/2014.",
+ "fecha": "11 de noviembre de 2026",
+ "cuerpo": [
+  "Muchas personas permanecen años en un matrimonio que ya terminó porque creen que necesitan la firma de su pareja o probar una infidelidad, un abandono o malos tratos. En Jalisco eso ya no es así.",
+  "## Lo que dice el Código Civil del Estado de Jalisco",
+  "De conformidad con el artículo 404 del Código Civil del Estado de Jalisco, procede el divorcio por el mutuo consentimiento o por la solicitud de cualquiera de los cónyuges sin necesidad de atender a un motivo. En consecuencia, basta con que usted lo pida, aunque su pareja no esté de acuerdo.",
+  "Asimismo, el artículo 405 Bis permite el divorcio administrativo ante el oficial del Registro Civil cuando ambos cónyuges están de acuerdo, no tienen hijos que requieran alimentos y ya liquidaron su sociedad conyugal, si la hubo.",
+  "## Por qué ya no se exigen causales",
+  "Durante décadas, quien quería divorciarse sin el consentimiento del otro debía demostrar alguna causal. La Primera Sala de la Suprema Corte de Justicia de la Nación resolvió en 2015 la contradicción de tesis 73/2014 y determinó que exigir esa prueba vulnera el derecho al libre desarrollo de la personalidad, porque el Estado no puede obligar a una persona a permanecer casada. Al final de este artículo transcribimos íntegra la jurisprudencia que surgió de esa resolución.",
+  "## El divorcio no resuelve todo por sí solo",
+  "Que no haya cónyuge culpable no significa que no haya nada que decidir. La propia jurisprudencia aclara que deben resolverse la guarda y custodia de los hijos, la convivencia con el padre que no la tenga, los alimentos y las demás cuestiones familiares, y a ello se suman la liquidación de la sociedad conyugal y, en su caso, la compensación económica para quien se dedicó al hogar.",
+  "Por ello, conviene presentar desde el inicio una propuesta de convenio sobre estos temas. Mientras mejor documentada esté, más rápido puede avanzar el juicio y menor será el desgaste para la familia.",
+  "## Lo que conviene reunir",
+  "Antes de iniciar, reúna el acta de matrimonio, las actas de nacimiento de los hijos, los documentos de los bienes adquiridos durante el matrimonio, los comprobantes de los gastos de los hijos y, si es posible, información sobre los ingresos de su pareja. En De León Cordero Abogados le orientamos para que el divorcio cierre una etapa con certeza para usted y para sus hijos.",
+  "## Criterio de la Suprema Corte",
+  "Esta es la jurisprudencia de la Primera Sala derivada de la contradicción de tesis 73/2014.",
+  "> Suprema Corte de Justicia de la Nación. Registro digital: 2009591. Instancia: Primera Sala. Décima Época. Materias: Constitucional, Civil. Tesis: 1a./J. 28/2015 (10a.). Fuente: Gaceta del Semanario Judicial de la Federación. Libro 20, Julio de 2015, Tomo I, página 570. Tipo: Jurisprudencia.",
+  "> DIVORCIO NECESARIO. EL RÉGIMEN DE DISOLUCIÓN DEL MATRIMONIO QUE EXIGE LA ACREDITACIÓN DE CAUSALES, VULNERA EL DERECHO AL LIBRE DESARROLLO DE LA PERSONALIDAD (CÓDIGOS DE MORELOS, VERACRUZ Y LEGISLACIONES ANÁLOGAS).",
+  "> El libre desarrollo de la personalidad constituye la expresión jurídica del principio liberal de \"autonomía de la persona\", de acuerdo con el cual al ser valiosa en sí misma la libre elección individual de planes de vida, el Estado tiene prohibido interferir en la elección de éstos, debiéndose limitar a diseñar instituciones que faciliten la persecución individual de esos planes de vida y la satisfacción de los ideales de virtud que cada uno elija, así como a impedir la interferencia de otras personas en su persecución. En el ordenamiento mexicano, el libre desarrollo de la personalidad es un derecho fundamental que permite a los individuos elegir y materializar los planes de vida que estimen convenientes, cuyos límites externos son exclusivamente el orden público y los derechos de terceros. De acuerdo con lo anterior, el régimen de disolución del matrimonio contemplado en las legislaciones de Morelos y Veracruz (y ordenamientos análogos), que exige la acreditación de causales cuando no existe mutuo consentimiento de los contrayentes, incide en el contenido prima facie del derecho al libre desarrollo de la personalidad. En este sentido, se trata de una medida legislativa que restringe injustificadamente ese derecho fundamental, toda vez que no resulta idónea para perseguir ninguno de los límites que imponen los derechos de terceros y de orden público. En consecuencia, los artículos 175 del Código Familiar para el Estado de Morelos y 141 del Código Civil para el Estado de Veracruz, en los cuales se establecen las causales que hay que acreditar para que pueda decretarse la disolución del matrimonio cuando no existe mutuo consentimiento de los cónyuges, son inconstitucionales. De acuerdo con lo anterior, los jueces de esas entidades federativas no pueden condicionar el otorgamiento del divorcio a la prueba de alguna causal, de tal manera que para decretar la disolución del vínculo matrimonial basta con que uno de los cónyuges lo solicite sin necesidad de expresar motivo alguno. No obstante, el hecho de que en esos casos se decrete el divorcio sin la existencia de cónyuge culpable no implica desconocer la necesidad de resolver las cuestiones familiares relacionadas con la disolución del matrimonio, como pudieran ser la guarda y custodia de los hijos, el régimen de convivencias con el padre no custodio, los alimentos o alguna otra cuestión semejante."
+ ],
+ "fuentes": [
+  {
+   "nombre": "Código Civil del Estado de Jalisco, artículos 404 y 405 Bis, texto publicado por el Congreso del Estado de Jalisco con última reforma de 18 de junio de 2026",
+   "url": "https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/C%C3%B3digos/Documentos_PDF-C%C3%B3digos/C%C3%B3digo%20Civil%20del%20Estado%20de%20Jalisco-240626.pdf"
+  },
+  {
+   "nombre": "Semanario Judicial de la Federación, jurisprudencia 1a./J. 28/2015 (10a.), registro digital 2009591",
+   "url": "https://sjf2.scjn.gob.mx/detalle/tesis/2009591"
+  }
+ ]
+},
+{
+ "m": "familiar",
+ "titulo": "¿Su familiar falleció sin testamento? Cómo se tramita un intestado en Jalisco, ante juez o ante notario",
+ "resumen": "La ley de Jalisco señala quiénes heredan cuando no hay testamento y permite tramitar la sucesión ante notario cuando todos los herederos son mayores de edad, capaces y están de acuerdo.",
+ "fecha": "11 de noviembre de 2026",
+ "cuerpo": [
+  "Falleció su padre y no dejó testamento. La casa está a su nombre, hay una cuenta en el banco y un automóvil. Sus hermanos y su madre se preguntan quién hereda y por dónde empezar. Esto es lo que establece la ley de Jalisco.",
+  "## Quiénes heredan",
+  "Cuando no hay testamento se abre la sucesión legítima, que comúnmente se conoce como intestado. De conformidad con el artículo 2911 del Código Civil del Estado de Jalisco, tienen derecho a heredar los descendientes, el cónyuge, los ascendientes, los parientes colaterales dentro del cuarto grado y la concubina o el concubinario, y a falta de todos ellos, la Beneficencia Pública.",
+  "El artículo 2913 agrega que, por regla general, los parientes más próximos excluyen a los más remotos, y el artículo 2914 dispone que los parientes del mismo grado heredan por partes iguales. Asimismo, el artículo 2912 aclara que el parentesco por afinidad, como el de suegros, yernos y nueras, no da derecho a heredar.",
+  "## Ante notario o ante juez",
+  "El artículo 3118 del mismo código permite tramitar la sucesión desde su inicio ante un notario público cuando todos los herederos son mayores de edad, no hay herederos incapaces y se trata de una sucesión legítima o existe testamento público abierto. Este camino suele ser más ágil, siempre que no haya controversia entre los herederos.",
+  "Cuando hay menores de edad, desacuerdos o dudas sobre quiénes son los herederos, el trámite se realiza ante el juez. Conforme al artículo 843 del Código de Procedimientos Civiles del Estado de Jalisco, quien promueve el intestado debe presentar con su denuncia los documentos que acrediten la muerte del autor de la herencia y su parentesco con él, y expresar bajo protesta de decir verdad los nombres y domicilios de los demás parientes de que tenga conocimiento.",
+  "Una vez radicado el intestado, el artículo 844 ordena notificar a los interesados y publicar edictos, para que en un plazo de treinta días se presenten a deducir sus derechos y nombrar albacea. Asimismo, el artículo 934 permite que, hecha la declaratoria de herederos, la sucesión continúe ante notario mientras no surja controversia.",
+  "## Lo que conviene reunir",
+  "Para iniciar, reúna el acta de defunción, las actas de nacimiento y de matrimonio que acrediten el parentesco, la identificación de cada heredero y los documentos de los bienes, como escrituras, facturas y estados de cuenta. También es recomendable solicitar un informe sobre la existencia de testamento, porque si aparece uno el trámite cambia.",
+  "Cada familia tiene circunstancias distintas, como hijos de diferentes relaciones o bienes adquiridos en sociedad conyugal. En De León Cordero Abogados le orientamos para elegir la vía más conveniente y concluir la sucesión con certeza."
+ ],
+ "fuentes": [
+  {
+   "nombre": "Código Civil del Estado de Jalisco, artículos 2911 a 2914 y 3118, texto publicado por el Congreso del Estado de Jalisco con última reforma de 18 de junio de 2026",
+   "url": "https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/C%C3%B3digos/Documentos_PDF-C%C3%B3digos/C%C3%B3digo%20Civil%20del%20Estado%20de%20Jalisco-240626.pdf"
+  },
+  {
+   "nombre": "Código de Procedimientos Civiles del Estado de Jalisco, artículos 843, 844 y 934, texto publicado por el Congreso del Estado de Jalisco con última modificación de 5 de septiembre de 2023",
+   "url": "https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/C%C3%B3digos/C%C3%B3digo%20de%20Procedimientos%20Civiles%20del%20Estado%20de%20Jalisco-250424.doc"
+  }
+ ]
+},
+{
+ "m": "civil",
+ "titulo": "¿Su inquilino dejó de pagar la renta? Cómo recuperar su inmueble en Jalisco sin hacerse justicia por propia mano",
+ "resumen": "La ley de Jalisco prevé un juicio de desocupación por falta de pago que permite requerir las rentas desde el inicio, embargar bienes y, con contrato escrito y garantía, fijar un plazo para entregar el inmueble.",
+ "fecha": "11 de noviembre de 2026",
+ "cuerpo": [
+  "Rentó su departamento a una persona que pagó puntualmente los primeros meses. Ahora debe tres rentas, no contesta y sigue viviendo ahí. La tentación de cambiar la cerradura o sacar sus cosas es grande, pero hacerlo puede volverse en su contra. La ley ofrece un camino más seguro.",
+  "## La falta de pago permite terminar el contrato",
+  "De conformidad con el artículo 2144 del Código Civil del Estado de Jalisco, el arrendador puede exigir la rescisión del contrato de arrendamiento, entre otras causas, por la falta de pago de la renta en los términos contractuales o legales.",
+  "## El juicio de desocupación",
+  "El artículo 683 del Código de Procedimientos Civiles del Estado de Jalisco establece que el juicio sumario por desocupación procede, entre otros casos, por el vencimiento del plazo del contrato y por la falta de pago de las rentas.",
+  "Conforme al artículo 685, recibida la demanda con los documentos que justifiquen el arrendamiento, el juez puede ordenar, a petición del actor, que se requiera al inquilino para que compruebe estar al corriente en el pago, y si no lo hace, que se le embarguen bienes suficientes para cubrir las rentas y las costas. Acto continuo se le emplaza para que conteste en cinco días, y desde ese momento queda como depositario judicial del inmueble.",
+  "Asimismo, cuando existe contrato por escrito, el juez puede requerir al inquilino para que acredite su legal ocupación y estar al corriente en sus pagos, con el apercibimiento de que, si no lo hace, tendrá cuarenta días naturales para desocupar y entregar el inmueble, y de no hacerlo se procederá al lanzamiento a su costa. Ahora bien, esta medida solo se decreta si el arrendador otorga garantía bastante para responder de los daños y perjuicios que pudiera causar.",
+  "## Si el inquilino paga durante el juicio",
+  "El artículo 686 prevé que, si en la diligencia el inquilino entrega el importe de las rentas reclamadas, el juicio concluye. Igualmente, si antes de la audiencia de pruebas y alegatos exhibe lo que debe, el juez da por terminado el asunto. Por ello, la demanda también funciona como un incentivo eficaz para que el inquilino se ponga al corriente.",
+  "## Lo que no debe hacer",
+  "Cambiar cerraduras, cortar servicios o retirar las pertenencias del inquilino sin orden judicial puede exponerle a responsabilidad, aunque la deuda sea real. El camino judicial protege su derecho y evita que el problema crezca.",
+  "## Lo que conviene reunir",
+  "Reúna el contrato de arrendamiento, los recibos y transferencias de las rentas cobradas, los datos del fiador u obligado solidario si lo hay, y cualquier mensaje en que el inquilino reconozca la deuda. Si el contrato se celebró de palabra, el arrendamiento puede acreditarse con otras pruebas, como lo prevé el mismo artículo 685.",
+  "En De León Cordero Abogados le acompañamos para recuperar su inmueble y las rentas adeudadas por la vía que la ley establece."
+ ],
+ "fuentes": [
+  {
+   "nombre": "Código Civil del Estado de Jalisco, artículo 2144, texto publicado por el Congreso del Estado de Jalisco con última reforma de 18 de junio de 2026",
+   "url": "https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/C%C3%B3digos/Documentos_PDF-C%C3%B3digos/C%C3%B3digo%20Civil%20del%20Estado%20de%20Jalisco-240626.pdf"
+  },
+  {
+   "nombre": "Código de Procedimientos Civiles del Estado de Jalisco, artículos 683, 685 y 686, texto publicado por el Congreso del Estado de Jalisco con última modificación de 5 de septiembre de 2023",
+   "url": "https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/C%C3%B3digos/C%C3%B3digo%20de%20Procedimientos%20Civiles%20del%20Estado%20de%20Jalisco-250424.doc"
+  }
+ ]
+},
+{
  "m": "familiar",
  "titulo": "¿Puede desconocer a un hijo años después si una prueba genética demuestra que no es suyo? El plazo que validó la Suprema Corte",
  "resumen": "El Pleno de la Suprema Corte validó el plazo que la ley de Chiapas fija para desconocer la paternidad, aun cuando una prueba genética posterior descarte el vínculo biológico, y el Código Civil de Jalisco contiene una regla semejante de noventa días.",
