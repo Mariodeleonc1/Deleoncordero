@@ -83,7 +83,7 @@ function page({title, description, canonical, ogImage, jsonld, hero, content, cu
 `;
 }
 
-const ORG = {"@type":"LegalService","name":"De León Cordero Abogados","url":SITE + '/',"telephone":"+52 33 3070 0588","sameAs":["https://www.facebook.com/profile.php?id=61595817688398"],"address":{"@type":"PostalAddress","streetAddress":"Paseo de los Robles 4099, Colonia San Wenceslao","addressLocality":"Zapopan","addressRegion":"Jalisco","postalCode":"45110","addressCountry":"MX"}};
+const ORG = {"@type":"LegalService","@id":SITE + '/#despacho',"name":"De León Cordero Abogados","url":SITE + '/',"telephone":"+52 33 3070 0588","email":"asistente@dlcm.mx","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"14:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"16:00","closes":"19:00"}],"sameAs":["https://www.facebook.com/profile.php?id=61595817688398"],"address":{"@type":"PostalAddress","streetAddress":"Paseo de los Robles 4099, Colonia San Wenceslao","addressLocality":"Zapopan","addressRegion":"Jalisco","postalCode":"45110","addressCountry":"MX"}};
 
 function bodyHtml(cuerpo){
   return cuerpo.map(p => p.startsWith('## ') ? `<h2>${esc(p.slice(3))}</h2>` : p.startsWith('> ') ? `<p class="jur">${esc(p.slice(2))}</p>` : `<p>${esc(p)}</p>`).join('\n');
