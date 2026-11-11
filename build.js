@@ -57,7 +57,7 @@ function page({title, description, canonical, ogImage, jsonld, hero, content, cu
 <body>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="/" aria-label="De León Cordero Abogados, inicio"><img src="/img/logo.svg" alt="De León Cordero"><span>ABOGADOS</span></a>
+    <a class="brand" href="/" aria-label="De León Cordero Abogados, inicio"><img src="/img/logo.svg" alt="De León Cordero" width="452" height="24"><span>ABOGADOS</span></a>
     <nav aria-label="Principal"><a href="/">Inicio</a><a href="/#firma">Firma</a><a href="/#practicas"${current==='materias'?' aria-current="page"':''}>Prácticas</a><a href="/noticias/"${current==='noticias'?' aria-current="page"':''}>Noticias</a><a href="/#contacto">Contacto</a></nav>
     <a class="cta" href="https://wa.me/523314196669" target="_blank" rel="noopener">Agendar consulta</a>
   </div>
@@ -72,7 +72,7 @@ ${noBox ? '' : `<aside class="box">
 </div></main>
 <footer>
   <div class="wrap">
-    <a class="brand" href="/"><img src="/img/logo.svg" alt="De León Cordero"><span>ABOGADOS</span></a>
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="De León Cordero" width="452" height="24"><span>ABOGADOS</span></a>
     <nav aria-label="Pie"><a href="/#firma">Firma</a><a href="/#practicas">Prácticas</a><a href="/noticias/">Noticias</a><a href="/#contacto">Contacto</a><a href="https://www.linkedin.com/in/mariodeleoncordero" target="_blank" rel="noopener me" aria-label="Mario Alberto de León Cordero en LinkedIn">LinkedIn</a><a href="https://www.facebook.com/profile.php?id=61595817688398" target="_blank" rel="noopener" aria-label="De León Cordero Abogados en Facebook">Facebook</a></nav>
     <span class="mat">${AREAS.map(a => `<a href="/materias/${MSLUG[a.id]}/">${esc(a.t)}</a>`).join(' · ')}</span>
     <span>Paseo de los Robles 4099, Colonia San Wenceslao, Zapopan, Jalisco · Teléfono 33 3070 0588 · asistente@dlcm.mx</span>
